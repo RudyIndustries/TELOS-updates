@@ -1,5 +1,25 @@
 # Historial de cambios
 
+## 0.5.3 · compilación 11
+
+# TELOS 0.5.3
+
+Android 8 o posterior · ARM64 · compilación 11.
+
+- Dos pulsaciones de Atrás desde Inicio llevan TELOS a segundo plano y conservan la reproducción. Quitarla desde Recientes detiene el audio.
+- Minirreproductor persistente al navegar por la biblioteca, artistas, búsqueda, carpetas y playlists. Ajustes conserva su pantalla sin reproductor inferior.
+- Minirreproductor, navegación y cabeceras más compactos para mostrar más contenido.
+- Favoritos aparece como una playlist de tamaño normal, seguida de las listas creadas.
+- Inicio incorpora accesos de dos columnas y recomendaciones de la biblioteca local.
+- Botones de play y aleatorio en las colecciones. Playlists con orden por título, artista y arrastre personalizado, guardado en el dispositivo.
+- Corregido el aviso incorrecto de que la colección cambió al iniciar en aleatorio. La lista y su inicio se aplican juntos en el servicio de audio.
+- La pista que empieza a sonar deja de figurar como pendiente al avanzar. Las entradas repetidas conservan identidades distintas.
+- El selector de apariencia de Ajustes se adapta al ancho disponible en pantallas pequeñas.
+
+Para actualizar desde TELOS 0.5.2 o posterior, abre Ajustes → Actualizaciones de TELOS → Buscar actualizaciones. Revisa los cambios, descarga el APK y confirma la instalación en Android. Si tienes una versión anterior, instala este APK una vez encima de la app.
+
+No desinstales TELOS: actualizar encima de la instalación conserva favoritos, playlists, historial, permisos y preferencias. La música permanece local.
+
 ## 0.5.2 · compilación 9
 
 TELOS GLASS 0.5.2 para Android 8 o posterior, ARM64.

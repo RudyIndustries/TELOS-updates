@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.5.3",
+  "versionCode": 11,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.5.3/TELOS-0.5.3-android-arm64.apk",
+  "size": 19177151,
+  "sha256": "5fa01c0aed47d64cfe97fea9107367237347ae500b9c6e89b8da4f16a9c715a9",
+  "publishedAt": "2026-10-31T01:40:28Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.5.3",
+  "notes": "# TELOS 0.5.3\n\nAndroid 8 o posterior · ARM64 · compilación 11.\n\n- Dos pulsaciones de Atrás desde Inicio llevan TELOS a segundo plano y conservan la reproducción. Quitarla desde Recientes detiene el audio.\n- Minirreproductor persistente al navegar por la biblioteca, artistas, búsqueda, carpetas y playlists. Ajustes conserva su pantalla sin reproductor inferior.\n- Minirreproductor, navegación y cabeceras más compactos para mostrar más contenido.\n- Favoritos aparece como una playlist de tamaño normal, seguida de las listas creadas.\n- Inicio incorpora accesos de dos columnas y recomendaciones de la biblioteca local.\n- Botones de play y aleatorio en las colecciones. Playlists con orden por título, artista y arrastre personalizado, guardado en el dispositivo.\n- Corregido el aviso incorrecto de que la colección cambió al iniciar en aleatorio. La lista y su inicio se aplican juntos en el servicio de audio.\n- La pista que empieza a sonar deja de figurar como pendiente al avanzar. Las entradas repetidas conservan identidades distintas.\n- El selector de apariencia de Ajustes se adapta al ancho disponible en pantallas pequeñas.\n\nPara actualizar desde TELOS 0.5.2 o posterior, abre Ajustes → Actualizaciones de TELOS → Buscar actualizaciones. Revisa los cambios, descarga el APK y confirma la instalación en Android. Si tienes una versión anterior, instala este APK una vez encima de la app.\n\nNo desinstales TELOS: actualizar encima de la instalación conserva favoritos, playlists, historial, permisos y preferencias. La música permanece local."
+}
