@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## 0.5.6 · compilación 14
+
+# TELOS 0.5.6
+
+- Buscador fijo: puedes escribir aunque hayas bajado hasta el final de los resultados.
+- Toca Buscar de nuevo para volver arriba y abrir el teclado, conservando tu consulta.
+- Toca Biblioteca desde una playlist, artista o álbum para volver a tus playlists. Si ya estás en Biblioteca, vuelve al inicio de la lista.
+
+La actualización conserva favoritos, playlists, historial y ajustes. Instala sobre TELOS, sin desinstalar.
+
 ## 0.5.5 · compilación 13
 
 # TELOS 0.5.5
