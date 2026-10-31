@@ -1,5 +1,17 @@
 # Historial de cambios
 
+## 0.5.5 · compilación 13
+
+# TELOS 0.5.5
+
+- Buscar muestra tus canciones y artistas recientes; al tocar el campo aparecen también las consultas anteriores, incluidas erratas.
+- Navegación, carátulas y vinilo optimizados conservando las animaciones y el material glass.
+- Actualizaciones más simples, con una acción principal y novedades desplegables.
+- Calidad de audio con tarjetas de fuente, PCM y salida; USB bit-perfect arriba y explicaciones en «Más información».
+- Organización interna y cachés revisados. El motor Pure Audio mantiene su precisión y configuración.
+
+La actualización conserva favoritos, playlists, ajustes e historial. Instala sobre TELOS; no hace falta desinstalar. El formato del archivo y el PCM observado no certifican el DAC físico.
+
 ## 0.5.4 · compilación 12
 
 # TELOS 0.5.4
