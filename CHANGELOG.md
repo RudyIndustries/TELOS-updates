@@ -1,5 +1,23 @@
 # Historial de cambios
 
+## 0.5.4 · compilación 12
+
+# TELOS 0.5.4
+
+Android 8 o posterior · ARM64 · compilación 12.
+
+- Buscar muestra el artista coincidente arriba y las canciones debajo. Admite nombres sin espacios y mantiene la tolerancia acotada a erratas.
+- Cabecera de Buscar más compacta, con más espacio para resultados.
+- Nueva ficha de artista con hasta cinco canciones recomendadas de tu biblioteca y acceso a todas sus canciones.
+- Botón Ver discografía: abre los álbumes locales del artista y permite entrar en cada uno. Los archivos sin etiqueta de álbum siguen accesibles en Sin álbum.
+- Efecto glass más visible, bordes más redondeados y reflejos suaves en tarjetas, minirreproductor y navegación.
+- Play, aleatorio y controles del disco ampliado con acabado glass, sin el relleno celeste plano.
+- Cabecera principal con TELOS sin marco rectangular y botón circular de Ajustes separado del borde.
+
+Las recomendaciones, álbumes y carátulas proceden de los archivos de tu dispositivo. No se descarga música ni se consulta un catálogo de Spotify.
+
+Para actualizar ahora: Ajustes → Actualizaciones de TELOS → Buscar actualizaciones. Revisa estos cambios, descarga la actualización y confirma la instalación en Android. No desinstales TELOS: la actualización conserva tus preferencias, playlists e historial.
+
 ## 0.5.3 · compilación 11
 
 # TELOS 0.5.3
