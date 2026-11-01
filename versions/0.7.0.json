@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.7.0",
+  "versionCode": 19,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.7.0/TELOS-0.7.0-android-arm64.apk",
+  "size": 18629461,
+  "sha256": "479494d9cf66a725a662c3ae0fbc3fb199505e6d5084d086bce12adb76a31f6e",
+  "publishedAt": "2026-11-01T22:42:07Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.7.0",
+  "notes": "Ajustes incluye Recomendar canciones, desactivado por defecto. Si lo activas, TELOS continúa con otra canción de tu biblioteca al terminar la cola, también en segundo plano. El botón Siguiente de TELOS también elige una recomendación cuando no quedan pendientes. Tu cola manual y las opciones de repetición tienen prioridad.\n\nLas recomendaciones priorizan el género guardado en las etiquetas del archivo. Si no hay una coincidencia de género, usan artista, álbum, historial de escucha y favoritos. Evitan la pista actual, canciones ocultas y repeticiones recientes. Los detalles de cada canción muestran su género cuando está disponible.\n\nTodo se realiza con archivos locales: no descarga canciones automáticamente ni modifica tu música. Actualiza encima de TELOS para conservar Telegram, calidad elegida, favoritos, playlists e historial."
+}

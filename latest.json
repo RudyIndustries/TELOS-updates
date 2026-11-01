@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.6.2",
-  "versionCode": 18,
+  "versionName": "0.7.0",
+  "versionCode": 19,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.6.2/TELOS-0.6.2-android-arm64.apk",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.7.0/TELOS-0.7.0-android-arm64.apk",
   "size": 18629461,
-  "sha256": "97fae0635ee1b70972f746c6eac00a8e11a7823054b649496063a00d38777e0a",
-  "publishedAt": "2026-11-01T22:11:57Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.6.2",
-  "notes": "Corrige el toque en las palabras de Búsquedas recientes: la lista conserva el foco hasta completar el toque, restaura el texto y vuelve a buscar automáticamente en Global y en tu biblioteca.\n\nLas diez consultas recientes también se pueden desplazar sin que el teclado cierre la lista antes de elegir una. Se conserva el borrado separado de consultas y canciones/artistas visitados.\n\nActualiza encima de TELOS para conservar tu sesión de Telegram, música, favoritos, playlists, historial y calidad seleccionada."
+  "sha256": "479494d9cf66a725a662c3ae0fbc3fb199505e6d5084d086bce12adb76a31f6e",
+  "publishedAt": "2026-11-01T22:42:07Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.7.0",
+  "notes": "Ajustes incluye Recomendar canciones, desactivado por defecto. Si lo activas, TELOS continúa con otra canción de tu biblioteca al terminar la cola, también en segundo plano. El botón Siguiente de TELOS también elige una recomendación cuando no quedan pendientes. Tu cola manual y las opciones de repetición tienen prioridad.\n\nLas recomendaciones priorizan el género guardado en las etiquetas del archivo. Si no hay una coincidencia de género, usan artista, álbum, historial de escucha y favoritos. Evitan la pista actual, canciones ocultas y repeticiones recientes. Los detalles de cada canción muestran su género cuando está disponible.\n\nTodo se realiza con archivos locales: no descarga canciones automáticamente ni modifica tu música. Actualiza encima de TELOS para conservar Telegram, calidad elegida, favoritos, playlists e historial."
 }
