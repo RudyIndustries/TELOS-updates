@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 0.6.1 · compilación 17
+
+La consulta y el cambio de calidad se confirman en cuanto llega el menú real del bot, sin esperar además el acuse del envío o del botón, que este bot a veces no responde. Se mantiene el cambio con un solo toque y FLAC como formato inicial. Al elegir un formato se muestra «Cambiando calidad…».
+
+TELOS verifica el formato real seleccionado antes de mostrarlo como confirmado; los errores y las respuestas con otra calidad no se presentan como un cambio correcto. La espera restante depende de la conexión con Telegram y del bot.
+
+Actualiza encima de TELOS: se conservan tu sesión, biblioteca, favoritos, playlists y ajustes. TELOS ONLINE continúa retirada.
+
 ## 0.6.0 · compilación 16
 
 TELOS reúne las funciones de ONLINE en una sola app. Actualiza encima de tu TELOS habitual: conserva favoritos, playlists, historial y permisos.
