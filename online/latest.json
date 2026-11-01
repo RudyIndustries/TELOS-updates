@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.online",
   "channel": "online",
-  "versionName": "0.1.0",
-  "versionCode": 1,
+  "versionName": "0.1.1",
+  "versionCode": 2,
   "minSdk": 29,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/online-v0.1.0/TELOS-ONLINE-0.1.0-android-arm64.apk",
-  "size": 20376053,
-  "sha256": "59f3085a3120317132b5494ce95b592aa1927d747c36bf532aada8d31608f532",
-  "publishedAt": "2026-11-01T15:05:35Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/online-v0.1.0",
-  "notes": "Primera prueba independiente TELOS ONLINE. Se instala junto a TELOS con ajustes y playlists separados. Android 10+, ARM64.\n\nEl botón de nube abre Buscar online. La consulta abre el cliente oficial Telegram Web dentro de TELOS ONLINE, en el chat de @deezload2bot. Inicia sesión en esa vista la primera vez, envía la consulta y elige el audio. El botón Consulta permite pegar el texto si aún no se había iniciado sesión.\n\nUsa Descargar en el menú del archivo. El puente interno guarda el audio en Music/TELOS Online, valida formato real, tamaño y SHA-256 antes de publicarlo y conserva nombre, bytes y etiquetas. Volver con Biblioteca actualiza la colección. No se encola ni reproduce automáticamente.\n\nLa cuenta permanece en el almacenamiento privado del cliente web integrado. No se incluyen claves, tokens ni sesiones en el APK o el repositorio. No se pide acceso total al almacenamiento. El bot y Telegram determinan disponibilidad, catálogo y formatos.\n\nEl traslado automático de FLAC está desactivado por defecto en esta prueba. Las actualizaciones ONLINE usan un canal y paquete separados del TELOS estable.\n\nPrueba inicial: análisis, pruebas Flutter/Kotlin y transferencia por bloques automatizada. La búsqueda autenticada y una descarga real del bot requieren iniciar sesión y completar la comprobación física; consultar docs/VERIFICATION.md en el repositorio privado."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/online-v0.1.1/TELOS-ONLINE-0.1.1-android-arm64.apk",
+  "size": 20379105,
+  "sha256": "38e0da23fe4965c084617823de9a3cdda45d29694a90fb542a8e1c47b0fbe129",
+  "publishedAt": "2026-11-01T18:06:30Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/online-v0.1.1",
+  "notes": "TELOS ONLINE ahora tiene su propio buscador y lista de resultados. Conecta Telegram una vez; después busca por canciones, artistas o global sin abrir el chat ni escribir comandos.\n\nElige una canción y pulsa Descargar. La app obtiene el audio del bot, muestra el progreso, comprueba tamaño, formato y SHA-256 y lo añade a tu biblioteca. Maneja tanto archivos incluidos en el resultado como nuevas respuestas del bot. Descargar no reproduce ni cambia la cola.\n\nSe rechazan resultados de búsquedas anteriores y audios antiguos del chat. Los artistas y colecciones permiten continuar buscando sus canciones. La sesión se conserva en el almacenamiento privado del cliente interno; no se incluyen credenciales en el APK.\n\nVersión de prueba independiente: conserva TELOS estable, sus ajustes y sus playlists. Requiere conexión a Internet y una cuenta de Telegram autorizada. La disponibilidad y los formatos dependen del bot."
 }
