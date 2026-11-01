@@ -2,6 +2,10 @@
 
 Canal público de instaladores Android, números de versión y notas de cambios. El código fuente y las claves de firma se mantienen en privado.
 
+Desde TELOS 0.6.0 hay una sola app: TELOS. La edición de pruebas TELOS ONLINE está retirada; sus publicaciones anteriores se conservan únicamente como historial. Actualiza TELOS desde su aviso o con el instalador estable. La conexión de Telegram no se copia de la prueba: conecta tu cuenta una vez dentro de TELOS.
+
+BUSCAR reúne biblioteca y catálogo Global al escribir. En Ajustes → Calidad de la Música → Calidad de descarga, un toque cambia el formato del bot; la primera conexión configura FLAC. Las funciones online requieren Android 10 y WebView actualizado. La reproducción local continúa disponible sin conectar Telegram.
+
 - [Descargar la última versión y leer sus cambios](https://github.com/RudyIndustries/TELOS-updates/releases/latest)
 - [Historial de versiones](https://github.com/RudyIndustries/TELOS-updates/releases)
 - [Notas de cambios](CHANGELOG.md)
