@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.6.0",
+  "versionCode": 16,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.6.0/TELOS-0.6.0-android-arm64.apk",
+  "size": 18629257,
+  "sha256": "f59020fc155a3cb6356684b1265dc31927a9f3de24c078dc0b0f060c7df2c4e3",
+  "publishedAt": "2026-11-01T21:26:51Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.6.0",
+  "notes": "TELOS reúne las funciones de ONLINE en una sola app. Actualiza encima de tu TELOS habitual: conserva favoritos, playlists, historial y permisos.\n\nBUSCAR muestra juntas tus canciones y las del catálogo Global al escribir. Las disponibles aparecen en color con play; las pendientes se preparan al tocarlas, muestran un reloj y se reproducen al terminar. Las consultas recientes se pueden tocar para volver a buscar.\n\nEn Ajustes → Calidad de la Música → Calidad de descarga puedes elegir las opciones reales de tu cuenta del bot: FLAC, MP3 320 o MP3 128 cuando estén disponibles. La primera conexión configura FLAC; luego se respeta tu elección. No modifica la calidad de archivos ya descargados.\n\nCada usuario conecta su propia cuenta de Telegram. Se explica el alcance de la sesión antes de abrirla y se incluye Desconectar Telegram para revocarla y borrar los datos de conexión del teléfono, conservando tu música. Se reforzaron las validaciones de navegación, mensajes y archivos, y la firma de distribución conserva compatibilidad con las instalaciones existentes.\n\nLos FLAC se guardan por artista en Telos Sound; los demás formatos, por artista en Music/TELOS. La app mantiene un único reproductor local y conserva tu cola manual.\n\nTELOS ONLINE deja de usarse como app separada. Su conexión no se copia: conecta Telegram una vez desde TELOS. La disponibilidad y los formatos dependen del bot."
+}

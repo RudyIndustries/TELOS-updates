@@ -1,5 +1,19 @@
 # Historial de cambios
 
+## 0.6.0 · compilación 16
+
+TELOS reúne las funciones de ONLINE en una sola app. Actualiza encima de tu TELOS habitual: conserva favoritos, playlists, historial y permisos.
+
+BUSCAR muestra juntas tus canciones y las del catálogo Global al escribir. Las disponibles aparecen en color con play; las pendientes se preparan al tocarlas, muestran un reloj y se reproducen al terminar. Las consultas recientes se pueden tocar para volver a buscar.
+
+En Ajustes → Calidad de la Música → Calidad de descarga puedes elegir las opciones reales de tu cuenta del bot: FLAC, MP3 320 o MP3 128 cuando estén disponibles. La primera conexión configura FLAC; luego se respeta tu elección. No modifica la calidad de archivos ya descargados.
+
+Cada usuario conecta su propia cuenta de Telegram. Se explica el alcance de la sesión antes de abrirla y se incluye Desconectar Telegram para revocarla y borrar los datos de conexión del teléfono, conservando tu música. Se reforzaron las validaciones de navegación, mensajes y archivos, y la firma de distribución conserva compatibilidad con las instalaciones existentes.
+
+Los FLAC se guardan por artista en Telos Sound; los demás formatos, por artista en Music/TELOS. La app mantiene un único reproductor local y conserva tu cola manual.
+
+TELOS ONLINE deja de usarse como app separada. Su conexión no se copia: conecta Telegram una vez desde TELOS. La disponibilidad y los formatos dependen del bot.
+
 ## 0.5.7 · compilación 15
 
 Añadido «Probar TELOS ONLINE» en Ajustes → Actualizaciones. Descarga una app de prueba independiente, que se instala junto a TELOS con ajustes y playlists separados.
