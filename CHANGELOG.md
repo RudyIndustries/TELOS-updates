@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 0.7.1 · compilación 20
+
+Los controles externos utilizan ahora el mismo Siguiente que TELOS: primero tu cola y, si está vacía y activaste Recomendar canciones, otra pista local recomendada. La disponibilidad se actualiza al cambiar ese ajuste, también en los controles multimedia del Samsung.
+
+Se mejora la compatibilidad de pausa, reanudar, anterior y siguiente con controladoras externas y accesorios que usan la sesión estándar de Android. Esos controles reciben únicamente permisos de transporte y lectura multimedia; las funciones privadas de TELOS siguen reservadas a la app.
+
+Actualiza encima de TELOS para conservar sesión, música, preferencias y calidad seleccionada. Recomendar canciones sigue apagado por defecto.
+
 ## 0.7.0 · compilación 19
 
 Ajustes incluye Recomendar canciones, desactivado por defecto. Si lo activas, TELOS continúa con otra canción de tu biblioteca al terminar la cola, también en segundo plano. El botón Siguiente de TELOS también elige una recomendación cuando no quedan pendientes. Tu cola manual y las opciones de repetición tienen prioridad.

@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.7.0",
-  "versionCode": 19,
+  "versionName": "0.7.1",
+  "versionCode": 20,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.7.0/TELOS-0.7.0-android-arm64.apk",
-  "size": 18629461,
-  "sha256": "479494d9cf66a725a662c3ae0fbc3fb199505e6d5084d086bce12adb76a31f6e",
-  "publishedAt": "2026-11-01T22:42:07Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.7.0",
-  "notes": "Ajustes incluye Recomendar canciones, desactivado por defecto. Si lo activas, TELOS continúa con otra canción de tu biblioteca al terminar la cola, también en segundo plano. El botón Siguiente de TELOS también elige una recomendación cuando no quedan pendientes. Tu cola manual y las opciones de repetición tienen prioridad.\n\nLas recomendaciones priorizan el género guardado en las etiquetas del archivo. Si no hay una coincidencia de género, usan artista, álbum, historial de escucha y favoritos. Evitan la pista actual, canciones ocultas y repeticiones recientes. Los detalles de cada canción muestran su género cuando está disponible.\n\nTodo se realiza con archivos locales: no descarga canciones automáticamente ni modifica tu música. Actualiza encima de TELOS para conservar Telegram, calidad elegida, favoritos, playlists e historial."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.7.1/TELOS-0.7.1-android-arm64.apk",
+  "size": 18645845,
+  "sha256": "7dbbac7d1c38d4f3daa48fbc4fb9c8dbab83bdd3b1ea7a9ed314287825769e6a",
+  "publishedAt": "2026-11-01T23:25:56Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.7.1",
+  "notes": "Los controles externos utilizan ahora el mismo Siguiente que TELOS: primero tu cola y, si está vacía y activaste Recomendar canciones, otra pista local recomendada. La disponibilidad se actualiza al cambiar ese ajuste, también en los controles multimedia del Samsung.\n\nSe mejora la compatibilidad de pausa, reanudar, anterior y siguiente con controladoras externas y accesorios que usan la sesión estándar de Android. Esos controles reciben únicamente permisos de transporte y lectura multimedia; las funciones privadas de TELOS siguen reservadas a la app.\n\nActualiza encima de TELOS para conservar sesión, música, preferencias y calidad seleccionada. Recomendar canciones sigue apagado por defecto."
 }
