@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 0.5.7 · compilación 15
+
+Añadido «Probar TELOS ONLINE» en Ajustes → Actualizaciones. Descarga una app de prueba independiente, que se instala junto a TELOS con ajustes y playlists separados.
+
+El instalador de prueba usa un canal propio. TELOS comprueba tamaño, SHA-256, paquete, versión y certificado antes de abrir el instalador Android. Las actualizaciones normales siguen usando el canal estable.
+
+Esta versión de TELOS continúa reproduciendo música local. La búsqueda con Telegram pertenece a la app de prueba TELOS ONLINE.
+
 ## 0.5.6 · compilación 14
 
 # TELOS 0.5.6

@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.5.6",
-  "versionCode": 14,
+  "versionName": "0.5.7",
+  "versionCode": 15,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.5.6/TELOS-0.5.6-android-arm64.apk",
-  "size": 19309463,
-  "sha256": "91fc35d841e503d1056b5db04fd8c6150e29e3882806bc2186f4be83c376fe92",
-  "publishedAt": "2026-10-31T14:10:08Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.5.6",
-  "notes": "# TELOS 0.5.6\r\n\r\n- Buscador fijo: puedes escribir aunque hayas bajado hasta el final de los resultados.\r\n- Toca Buscar de nuevo para volver arriba y abrir el teclado, conservando tu consulta.\r\n- Toca Biblioteca desde una playlist, artista o álbum para volver a tus playlists. Si ya estás en Biblioteca, vuelve al inicio de la lista.\r\n\r\nLa actualización conserva favoritos, playlists, historial y ajustes. Instala sobre TELOS, sin desinstalar."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.5.7/TELOS-0.5.7-android-arm64.apk",
+  "size": 19325867,
+  "sha256": "959cc3b72cc22e3d8e882e673ae4d2d60491e9430da9794b6c69f26f659fea68",
+  "publishedAt": "2026-11-01T15:06:38Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.5.7",
+  "notes": "Añadido «Probar TELOS ONLINE» en Ajustes → Actualizaciones. Descarga una app de prueba independiente, que se instala junto a TELOS con ajustes y playlists separados.\n\nEl instalador de prueba usa un canal propio. TELOS comprueba tamaño, SHA-256, paquete, versión y certificado antes de abrir el instalador Android. Las actualizaciones normales siguen usando el canal estable.\n\nEsta versión de TELOS continúa reproduciendo música local. La búsqueda con Telegram pertenece a la app de prueba TELOS ONLINE."
 }
