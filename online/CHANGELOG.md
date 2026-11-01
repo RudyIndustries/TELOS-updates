@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## 0.1.2 · compilación 3
+
+BUSCAR combina tu biblioteca y los resultados Global del bot en una sola lista. Escribe el nombre y los resultados aparecen automáticamente, sin pulsar Buscar.
+
+Las canciones disponibles se muestran en color con su botón de reproducción. Las pendientes aparecen atenuadas: tócalas para prepararlas, ver el reloj de progreso y reproducirlas al terminar. La búsqueda permanece abierta y tu cola manual se conserva. Se muestran carátulas cuando están disponibles.
+
+Los FLAC nuevos se guardan por artista en Music/Telos Sound. Las descargas anteriores creadas por TELOS ONLINE en el almacenamiento interno se organizan automáticamente, conservando nombre, bytes y etiquetas, sin sobrescribir archivos. Los archivos de otras aplicaciones conservan las autorizaciones de Android.
+
+Prueba independiente de TELOS estable. Conserva la conexión de Telegram y los datos existentes al actualizar.
+
 ## 0.1.1 · compilación 2
 
 TELOS ONLINE ahora tiene su propio buscador y lista de resultados. Conecta Telegram una vez; después busca por canciones, artistas o global sin abrir el chat ni escribir comandos.

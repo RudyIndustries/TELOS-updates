@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.online",
+  "channel": "online",
+  "versionName": "0.1.2",
+  "versionCode": 3,
+  "minSdk": 29,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/online-v0.1.2/TELOS-ONLINE-0.1.2-android-arm64.apk",
+  "size": 20641361,
+  "sha256": "4650d622f3cd5e8bc5e6ed1067ac66b7032a8b2a00be4d4664a6811a2d41ee13",
+  "publishedAt": "2026-11-01T19:03:48Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/online-v0.1.2",
+  "notes": "BUSCAR combina tu biblioteca y los resultados Global del bot en una sola lista. Escribe el nombre y los resultados aparecen automáticamente, sin pulsar Buscar.\n\nLas canciones disponibles se muestran en color con su botón de reproducción. Las pendientes aparecen atenuadas: tócalas para prepararlas, ver el reloj de progreso y reproducirlas al terminar. La búsqueda permanece abierta y tu cola manual se conserva. Se muestran carátulas cuando están disponibles.\n\nLos FLAC nuevos se guardan por artista en Music/Telos Sound. Las descargas anteriores creadas por TELOS ONLINE en el almacenamiento interno se organizan automáticamente, conservando nombre, bytes y etiquetas, sin sobrescribir archivos. Los archivos de otras aplicaciones conservan las autorizaciones de Android.\n\nPrueba independiente de TELOS estable. Conserva la conexión de Telegram y los datos existentes al actualizar."
+}
