@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 0.6.2 · compilación 18
+
+Corrige el toque en las palabras de Búsquedas recientes: la lista conserva el foco hasta completar el toque, restaura el texto y vuelve a buscar automáticamente en Global y en tu biblioteca.
+
+Las diez consultas recientes también se pueden desplazar sin que el teclado cierre la lista antes de elegir una. Se conserva el borrado separado de consultas y canciones/artistas visitados.
+
+Actualiza encima de TELOS para conservar tu sesión de Telegram, música, favoritos, playlists, historial y calidad seleccionada.
+
 ## 0.6.1 · compilación 17
 
 La consulta y el cambio de calidad se confirman en cuanto llega el menú real del bot, sin esperar además el acuse del envío o del botón, que este bot a veces no responde. Se mantiene el cambio con un solo toque y FLAC como formato inicial. Al elegir un formato se muestra «Cambiando calidad…».

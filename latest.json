@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.6.1",
-  "versionCode": 17,
+  "versionName": "0.6.2",
+  "versionCode": 18,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.6.1/TELOS-0.6.1-android-arm64.apk",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.6.2/TELOS-0.6.2-android-arm64.apk",
   "size": 18629461,
-  "sha256": "6839bc36a7787dd92792b0e9ac16f7dd05f3353f5033a5a2d08a0ffe1a142233",
-  "publishedAt": "2026-11-01T21:50:22Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.6.1",
-  "notes": "La consulta y el cambio de calidad se confirman en cuanto llega el menú real del bot, sin esperar además el acuse del envío o del botón, que este bot a veces no responde. Se mantiene el cambio con un solo toque y FLAC como formato inicial. Al elegir un formato se muestra «Cambiando calidad…».\n\nTELOS verifica el formato real seleccionado antes de mostrarlo como confirmado; los errores y las respuestas con otra calidad no se presentan como un cambio correcto. La espera restante depende de la conexión con Telegram y del bot.\n\nActualiza encima de TELOS: se conservan tu sesión, biblioteca, favoritos, playlists y ajustes. TELOS ONLINE continúa retirada."
+  "sha256": "97fae0635ee1b70972f746c6eac00a8e11a7823054b649496063a00d38777e0a",
+  "publishedAt": "2026-11-01T22:11:57Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.6.2",
+  "notes": "Corrige el toque en las palabras de Búsquedas recientes: la lista conserva el foco hasta completar el toque, restaura el texto y vuelve a buscar automáticamente en Global y en tu biblioteca.\n\nLas diez consultas recientes también se pueden desplazar sin que el teclado cierre la lista antes de elegir una. Se conserva el borrado separado de consultas y canciones/artistas visitados.\n\nActualiza encima de TELOS para conservar tu sesión de Telegram, música, favoritos, playlists, historial y calidad seleccionada."
 }
