@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.0",
+  "versionCode": 21,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.0/TELOS-0.8.0-android-arm64.apk",
+  "size": 20504428,
+  "sha256": "b1eef9453e86682b98a5e20443a98521623e27a00938b3b6fb710e51d5936d9e",
+  "publishedAt": "2026-11-02T00:33:43Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.0",
+  "notes": "Puedes seleccionar varias canciones y seguir buscando mientras se descargan. TELOS mantiene hasta dos descargas activas y deja las demás en cola. En Buscar aparece Descargas mientras haya pendientes: muestra cada canción, su progreso y la opción de cancelarla por separado.\n\nNuevo icono de vidrio dorado, apertura con brillo suave y fundido, y transiciones en Actualizaciones con un anillo de progreso. Los efectos respetan tus preferencias de movimiento.\n\nLos álbumes de la búsqueda Global abren una lista de sus canciones, con el mismo funcionamiento de play y descarga de la búsqueda.\n\nAl final del menú de una canción encontrarás Borrar del dispositivo en rojo. Después de confirmar, se elimina el archivo y el resultado vuelve a estar disponible para descargar. Android puede solicitar también su autorización de borrado.\n\nActualiza encima de TELOS para conservar sesión, biblioteca, preferencias y calidad seleccionada. La primera conexión sigue usando FLAC por defecto. Recomendar canciones permanece desactivado por defecto; los controles externos conservan la corrección de 0.7.1."
+}

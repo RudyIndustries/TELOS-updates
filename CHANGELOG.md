@@ -1,5 +1,17 @@
 # Historial de cambios
 
+## 0.8.0 · compilación 21
+
+Puedes seleccionar varias canciones y seguir buscando mientras se descargan. TELOS mantiene hasta dos descargas activas y deja las demás en cola. En Buscar aparece Descargas mientras haya pendientes: muestra cada canción, su progreso y la opción de cancelarla por separado.
+
+Nuevo icono de vidrio dorado, apertura con brillo suave y fundido, y transiciones en Actualizaciones con un anillo de progreso. Los efectos respetan tus preferencias de movimiento.
+
+Los álbumes de la búsqueda Global abren una lista de sus canciones, con el mismo funcionamiento de play y descarga de la búsqueda.
+
+Al final del menú de una canción encontrarás Borrar del dispositivo en rojo. Después de confirmar, se elimina el archivo y el resultado vuelve a estar disponible para descargar. Android puede solicitar también su autorización de borrado.
+
+Actualiza encima de TELOS para conservar sesión, biblioteca, preferencias y calidad seleccionada. La primera conexión sigue usando FLAC por defecto. Recomendar canciones permanece desactivado por defecto; los controles externos conservan la corrección de 0.7.1.
+
 ## 0.7.1 · compilación 20
 
 Los controles externos utilizan ahora el mismo Siguiente que TELOS: primero tu cola y, si está vacía y activaste Recomendar canciones, otra pista local recomendada. La disponibilidad se actualiza al cambiar ese ajuste, también en los controles multimedia del Samsung.

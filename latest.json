@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.7.1",
-  "versionCode": 20,
+  "versionName": "0.8.0",
+  "versionCode": 21,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.7.1/TELOS-0.7.1-android-arm64.apk",
-  "size": 18645845,
-  "sha256": "7dbbac7d1c38d4f3daa48fbc4fb9c8dbab83bdd3b1ea7a9ed314287825769e6a",
-  "publishedAt": "2026-11-01T23:25:56Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.7.1",
-  "notes": "Los controles externos utilizan ahora el mismo Siguiente que TELOS: primero tu cola y, si está vacía y activaste Recomendar canciones, otra pista local recomendada. La disponibilidad se actualiza al cambiar ese ajuste, también en los controles multimedia del Samsung.\n\nSe mejora la compatibilidad de pausa, reanudar, anterior y siguiente con controladoras externas y accesorios que usan la sesión estándar de Android. Esos controles reciben únicamente permisos de transporte y lectura multimedia; las funciones privadas de TELOS siguen reservadas a la app.\n\nActualiza encima de TELOS para conservar sesión, música, preferencias y calidad seleccionada. Recomendar canciones sigue apagado por defecto."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.0/TELOS-0.8.0-android-arm64.apk",
+  "size": 20504428,
+  "sha256": "b1eef9453e86682b98a5e20443a98521623e27a00938b3b6fb710e51d5936d9e",
+  "publishedAt": "2026-11-02T00:33:43Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.0",
+  "notes": "Puedes seleccionar varias canciones y seguir buscando mientras se descargan. TELOS mantiene hasta dos descargas activas y deja las demás en cola. En Buscar aparece Descargas mientras haya pendientes: muestra cada canción, su progreso y la opción de cancelarla por separado.\n\nNuevo icono de vidrio dorado, apertura con brillo suave y fundido, y transiciones en Actualizaciones con un anillo de progreso. Los efectos respetan tus preferencias de movimiento.\n\nLos álbumes de la búsqueda Global abren una lista de sus canciones, con el mismo funcionamiento de play y descarga de la búsqueda.\n\nAl final del menú de una canción encontrarás Borrar del dispositivo en rojo. Después de confirmar, se elimina el archivo y el resultado vuelve a estar disponible para descargar. Android puede solicitar también su autorización de borrado.\n\nActualiza encima de TELOS para conservar sesión, biblioteca, preferencias y calidad seleccionada. La primera conexión sigue usando FLAC por defecto. Recomendar canciones permanece desactivado por defecto; los controles externos conservan la corrección de 0.7.1."
 }
