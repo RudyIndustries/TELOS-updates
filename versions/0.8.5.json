@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.5",
+  "versionCode": 26,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.5/TELOS-0.8.5-android-arm64.apk",
+  "size": 20570676,
+  "sha256": "ed30766521cc534862ac396e22677e03f531c7593fb8d824873fefbc1204f8cd",
+  "publishedAt": "2026-11-03T05:37:38Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.5",
+  "notes": "Ambilight más visible y con intensidad ajustable\n\n- Se corrige el Ambilight que podía quedarse estático al reiniciar una canción o retroceder dentro de ella.\n- Ajustes permite regular la intensidad de 0 a 100 %. La elección se conserva; al máximo aumentan brillo, color, definición y movimiento de las luces.\n- Respuesta más rápida a la música, con acentos en las subidas reales de bajos y desplazamiento según bajos, medios y agudos. No cambia el audio ni utiliza micrófono.\n- El efecto sigue deteniéndose en segundo plano, con pantalla apagada, al pausar o al desactivar Movimiento. A 0 % también se detiene su análisis.\n\nActualización Android que conserva música, favoritos, playlists y preferencias."
+}

@@ -1,5 +1,16 @@
 # Historial de cambios
 
+## 0.8.5 · compilación 26
+
+Ambilight más visible y con intensidad ajustable
+
+- Se corrige el Ambilight que podía quedarse estático al reiniciar una canción o retroceder dentro de ella.
+- Ajustes permite regular la intensidad de 0 a 100 %. La elección se conserva; al máximo aumentan brillo, color, definición y movimiento de las luces.
+- Respuesta más rápida a la música, con acentos en las subidas reales de bajos y desplazamiento según bajos, medios y agudos. No cambia el audio ni utiliza micrófono.
+- El efecto sigue deteniéndose en segundo plano, con pantalla apagada, al pausar o al desactivar Movimiento. A 0 % también se detiene su análisis.
+
+Actualización Android que conserva música, favoritos, playlists y preferencias.
+
 ## 0.8.4 · compilación 25
 
 Ambilight al ritmo y descargas con colaboradores
