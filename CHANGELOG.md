@@ -1,5 +1,19 @@
 # Historial de cambios
 
+## 0.8.4 · compilación 25
+
+Ambilight al ritmo y descargas con colaboradores
+
+- Se corrige el reconocimiento del audio cuando la búsqueda muestra al artista principal y el archivo incluye colaboradores. La espera también termina si Telegram deja una consulta pendiente, y se puede cancelar.
+- Se mantienen las comprobaciones para distinguir canciones homónimas, versiones y enlaces de otras pistas.
+- Cabeceras de Ajustes, playlists y reproductor sin división rectangular superior.
+- Ambilight detrás del disco y en los bordes: colores dominantes de la portada y respuesta a bajos, medios y agudos mediante FFT del audio local. Activado por defecto, desactivable en Ajustes; sin micrófono ni cambios en el sonido.
+- Play/pausa sobre la carátula de Buscar sin círculo negro y barras neón para identificar la canción actual en búsquedas y playlists.
+- El corazón plateado y el minirreproductor abren Favoritos y playlists; se retiran los tres puntos del minirreproductor.
+- Imagen personalizada para playlists, con posibilidad de volver a las carátulas automáticas. El selector de destino muestra esa imagen o el mosaico de canciones.
+
+Actualización sólo para Android, conservando música, favoritos, playlists y preferencias.
+
 ## 0.8.1 · compilación 22
 
 Tocadiscos y búsqueda más cómodos

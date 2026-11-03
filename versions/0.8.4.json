@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.4",
+  "versionCode": 25,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.4/TELOS-0.8.4-android-arm64.apk",
+  "size": 20570676,
+  "sha256": "9147d435ca5e95262e478796d6166d49f0577cbcd64575734cfecdc836e25e1c",
+  "publishedAt": "2026-11-03T04:04:45Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.4",
+  "notes": "Ambilight al ritmo y descargas con colaboradores\n\n- Se corrige el reconocimiento del audio cuando la búsqueda muestra al artista principal y el archivo incluye colaboradores. La espera también termina si Telegram deja una consulta pendiente, y se puede cancelar.\n- Se mantienen las comprobaciones para distinguir canciones homónimas, versiones y enlaces de otras pistas.\n- Cabeceras de Ajustes, playlists y reproductor sin división rectangular superior.\n- Ambilight detrás del disco y en los bordes: colores dominantes de la portada y respuesta a bajos, medios y agudos mediante FFT del audio local. Activado por defecto, desactivable en Ajustes; sin micrófono ni cambios en el sonido.\n- Play/pausa sobre la carátula de Buscar sin círculo negro y barras neón para identificar la canción actual en búsquedas y playlists.\n- El corazón plateado y el minirreproductor abren Favoritos y playlists; se retiran los tres puntos del minirreproductor.\n- Imagen personalizada para playlists, con posibilidad de volver a las carátulas automáticas. El selector de destino muestra esa imagen o el mosaico de canciones.\n\nActualización sólo para Android, conservando música, favoritos, playlists y preferencias."
+}
