@@ -1,5 +1,18 @@
 # Historial de cambios
 
+## 0.8.1 · compilación 22
+
+Tocadiscos y búsqueda más cómodos
+
+- Vinilo negro más grande, surcos finos, reflejos y brazo cromado inspirado en la referencia. Tamaño adaptable para conservar el acceso a los controles.
+- Corazón metálico abajo a la derecha del tocadiscos, encima de los controles.
+- Arranque y frenado visuales suaves, movimiento del brazo y respuesta al tocar el disco. Se respeta Movimiento y la accesibilidad del sistema.
+- Buscar muestra reproducción sobre la carátula, acceso directo a Favoritos/playlists y opciones con tres puntos verticales. El primer toque añade a Favoritos; si ya está añadida, abre el selector de playlists.
+- Los resultados Global se guardan y verifican antes de añadirlos a Favoritos, sin reproducir ni cambiar la cola manual.
+- Al minimizar con el teclado abierto se descarta el foco antiguo y el espacio residual del teclado al volver; se conserva la consulta y se puede escribir de nuevo.
+
+Actualización Android sobre la instalación existente, conservando música, favoritos, playlists y preferencias.
+
 ## 0.8.0 · compilación 21
 
 Puedes seleccionar varias canciones y seguir buscando mientras se descargan. TELOS mantiene hasta dos descargas activas y deja las demás en cola. En Buscar aparece Descargas mientras haya pendientes: muestra cada canción, su progreso y la opción de cancelarla por separado.

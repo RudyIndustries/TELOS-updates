@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.0",
-  "versionCode": 21,
+  "versionName": "0.8.1",
+  "versionCode": 22,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.0/TELOS-0.8.0-android-arm64.apk",
-  "size": 20504428,
-  "sha256": "b1eef9453e86682b98a5e20443a98521623e27a00938b3b6fb710e51d5936d9e",
-  "publishedAt": "2026-11-02T00:33:43Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.0",
-  "notes": "Puedes seleccionar varias canciones y seguir buscando mientras se descargan. TELOS mantiene hasta dos descargas activas y deja las demás en cola. En Buscar aparece Descargas mientras haya pendientes: muestra cada canción, su progreso y la opción de cancelarla por separado.\n\nNuevo icono de vidrio dorado, apertura con brillo suave y fundido, y transiciones en Actualizaciones con un anillo de progreso. Los efectos respetan tus preferencias de movimiento.\n\nLos álbumes de la búsqueda Global abren una lista de sus canciones, con el mismo funcionamiento de play y descarga de la búsqueda.\n\nAl final del menú de una canción encontrarás Borrar del dispositivo en rojo. Después de confirmar, se elimina el archivo y el resultado vuelve a estar disponible para descargar. Android puede solicitar también su autorización de borrado.\n\nActualiza encima de TELOS para conservar sesión, biblioteca, preferencias y calidad seleccionada. La primera conexión sigue usando FLAC por defecto. Recomendar canciones permanece desactivado por defecto; los controles externos conservan la corrección de 0.7.1."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.1/TELOS-0.8.1-android-arm64.apk",
+  "size": 20504536,
+  "sha256": "7961bfc01804832d0e48ad122aa0f7d04bec9371a0ddf1d763d5d5bb89620d79",
+  "publishedAt": "2026-11-03T01:06:11Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.1",
+  "notes": "Tocadiscos y búsqueda más cómodos\n\n- Vinilo negro más grande, surcos finos, reflejos y brazo cromado inspirado en la referencia. Tamaño adaptable para conservar el acceso a los controles.\n- Corazón metálico abajo a la derecha del tocadiscos, encima de los controles.\n- Arranque y frenado visuales suaves, movimiento del brazo y respuesta al tocar el disco. Se respeta Movimiento y la accesibilidad del sistema.\n- Buscar muestra reproducción sobre la carátula, acceso directo a Favoritos/playlists y opciones con tres puntos verticales. El primer toque añade a Favoritos; si ya está añadida, abre el selector de playlists.\n- Los resultados Global se guardan y verifican antes de añadirlos a Favoritos, sin reproducir ni cambiar la cola manual.\n- Al minimizar con el teclado abierto se descarta el foco antiguo y el espacio residual del teclado al volver; se conserva la consulta y se puede escribir de nuevo.\n\nActualización Android sobre la instalación existente, conservando música, favoritos, playlists y preferencias."
 }

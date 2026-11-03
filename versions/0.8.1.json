@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.1",
+  "versionCode": 22,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.1/TELOS-0.8.1-android-arm64.apk",
+  "size": 20504536,
+  "sha256": "7961bfc01804832d0e48ad122aa0f7d04bec9371a0ddf1d763d5d5bb89620d79",
+  "publishedAt": "2026-11-03T01:06:11Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.1",
+  "notes": "Tocadiscos y búsqueda más cómodos\n\n- Vinilo negro más grande, surcos finos, reflejos y brazo cromado inspirado en la referencia. Tamaño adaptable para conservar el acceso a los controles.\n- Corazón metálico abajo a la derecha del tocadiscos, encima de los controles.\n- Arranque y frenado visuales suaves, movimiento del brazo y respuesta al tocar el disco. Se respeta Movimiento y la accesibilidad del sistema.\n- Buscar muestra reproducción sobre la carátula, acceso directo a Favoritos/playlists y opciones con tres puntos verticales. El primer toque añade a Favoritos; si ya está añadida, abre el selector de playlists.\n- Los resultados Global se guardan y verifican antes de añadirlos a Favoritos, sin reproducir ni cambiar la cola manual.\n- Al minimizar con el teclado abierto se descarta el foco antiguo y el espacio residual del teclado al volver; se conserva la consulta y se puede escribir de nuevo.\n\nActualización Android sobre la instalación existente, conservando música, favoritos, playlists y preferencias."
+}
