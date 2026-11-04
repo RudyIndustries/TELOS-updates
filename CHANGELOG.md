@@ -1,5 +1,20 @@
 # Historial de cambios
 
+## 0.8.8 · compilación 29
+
+Telegram inmediato, descargas sin interrupciones y almacenamiento de tu música
+
+- Telegram aparece al principio de Ajustes. Conectar abre el inicio de sesión sin esperar comprobaciones de conexión o calidad y no prepara una sesión web al entrar en Ajustes.
+- Buscar mantiene Conectar Telegram fijo en la parte superior, encima del campo de búsqueda. Permanece visible al escribir, borrar o desplazar resultados, y sólo desaparece cuando la cuenta está conectada.
+- Cancelar el consentimiento o el inicio de sesión deja disponible el mismo botón para reintentarlo.
+- Las respuestas antiguas de conexión o calidad no sustituyen el estado de un inicio de sesión más reciente.
+- Se agiliza la presentación del consentimiento al evitar inicializar WebView antes de aceptar. La carga de la página oficial y la autenticación siguen dependiendo de Telegram y de la conexión a Internet.
+- Descargar una o varias canciones desde Buscar o un álbum ya no detiene ni sustituye la que está sonando. Las descargas normales respetan la reproducción y la cola manual; sólo Preparar y reproducir, elegido expresamente, reproduce al terminar.
+- Nuevo botón Administrar almacenamiento en Ajustes: total ocupado por la música, barra de distribución, tamaños por carpeta y detalle de sus canciones, ordenados por espacio ocupado. Sólo incluye música detectada por TELOS; no mezcla fotos, aplicaciones ni sistema.
+- Recalcular almacenamiento sólo lee la biblioteca, sin mover archivos. Los tamaños no informados se señalan y no se inventan.
+
+Se mantienen Análogo Hi-Res, la biblioteca, música descargada, favoritos, playlists y ajustes. Actualiza encima de la instalación existente.
+
 ## 0.8.7 · compilación 28
 
 Telegram en Ajustes y Análogo Hi-Res automático para USB

@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.7",
-  "versionCode": 28,
+  "versionName": "0.8.8",
+  "versionCode": 29,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.7/TELOS-0.8.7-android-arm64.apk",
-  "size": 20570864,
-  "sha256": "8f2b47d6fa39a9fe369a52dba9f9634802e44d521f0ec0f372a4d2262b2500ca",
-  "publishedAt": "2026-11-04T15:03:44Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.7",
-  "notes": "Telegram en Ajustes y Análogo Hi-Res automático para USB\n\n- Nuevo bloque Telegram en Ajustes para conectar tu cuenta o desconectarla. Cancelar el consentimiento o el inicio de sesión permite volver a intentarlo.\n- Pantalla de consentimiento rediseñada con el icono original de TELOS, tarjetas claras y las opciones Aceptar y conectar y Ahora no.\n- Se mantiene la explicación del alcance de Telegram Web, del servicio que recibe las consultas y del envío mientras escribes. Telegram sólo se carga después de aceptar.\n- Desconectar pide confirmación y conserva la música descargada, favoritos y playlists. Si el cierre remoto no se confirma, se indica cómo revocar la sesión desde Telegram.\n- Análogo Hi-Res se activa por defecto al detectar una salida de audio USB que anuncie frecuencias superiores a 48 kHz, en Android 14 o posterior. Sin esa detección permanece apagado. Puedes desactivarlo y se respeta tu elección.\n- Solicita la frecuencia original de la canción cuando existe un formato compatible; conserva la reproducción convencional si Android no lo admite. No aumenta artificialmente la frecuencia de los archivos ni certifica la frecuencia física del DAC.\n- El diagnóstico muestra las capacidades declaradas de la salida por separado del archivo, PCM y formato cliente de Android. Cambiar la preferencia conserva canción, posición, pausa y cola. La petición USB bit-perfect continúa siendo independiente.\n\nActualización Android que conserva música y preferencias. Instálala encima de TELOS sin desinstalar la versión anterior."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.8/TELOS-0.8.8-android-arm64.apk",
+  "size": 20570928,
+  "sha256": "bfb0988626b5641ac50c8b330d8ba5475b5e07f5f929a9cc72ffbeeaf64493ba",
+  "publishedAt": "2026-11-04T15:51:24Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.8",
+  "notes": "Telegram inmediato, descargas sin interrupciones y almacenamiento de tu música\n\n- Telegram aparece al principio de Ajustes. Conectar abre el inicio de sesión sin esperar comprobaciones de conexión o calidad y no prepara una sesión web al entrar en Ajustes.\n- Buscar mantiene Conectar Telegram fijo en la parte superior, encima del campo de búsqueda. Permanece visible al escribir, borrar o desplazar resultados, y sólo desaparece cuando la cuenta está conectada.\n- Cancelar el consentimiento o el inicio de sesión deja disponible el mismo botón para reintentarlo.\n- Las respuestas antiguas de conexión o calidad no sustituyen el estado de un inicio de sesión más reciente.\n- Se agiliza la presentación del consentimiento al evitar inicializar WebView antes de aceptar. La carga de la página oficial y la autenticación siguen dependiendo de Telegram y de la conexión a Internet.\n- Descargar una o varias canciones desde Buscar o un álbum ya no detiene ni sustituye la que está sonando. Las descargas normales respetan la reproducción y la cola manual; sólo Preparar y reproducir, elegido expresamente, reproduce al terminar.\n- Nuevo botón Administrar almacenamiento en Ajustes: total ocupado por la música, barra de distribución, tamaños por carpeta y detalle de sus canciones, ordenados por espacio ocupado. Sólo incluye música detectada por TELOS; no mezcla fotos, aplicaciones ni sistema.\n- Recalcular almacenamiento sólo lee la biblioteca, sin mover archivos. Los tamaños no informados se señalan y no se inventan.\n\nSe mantienen Análogo Hi-Res, la biblioteca, música descargada, favoritos, playlists y ajustes. Actualiza encima de la instalación existente."
 }
