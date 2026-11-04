@@ -1,5 +1,19 @@
 # Historial de cambios
 
+## 0.8.7 · compilación 28
+
+Telegram en Ajustes y Análogo Hi-Res automático para USB
+
+- Nuevo bloque Telegram en Ajustes para conectar tu cuenta o desconectarla. Cancelar el consentimiento o el inicio de sesión permite volver a intentarlo.
+- Pantalla de consentimiento rediseñada con el icono original de TELOS, tarjetas claras y las opciones Aceptar y conectar y Ahora no.
+- Se mantiene la explicación del alcance de Telegram Web, del servicio que recibe las consultas y del envío mientras escribes. Telegram sólo se carga después de aceptar.
+- Desconectar pide confirmación y conserva la música descargada, favoritos y playlists. Si el cierre remoto no se confirma, se indica cómo revocar la sesión desde Telegram.
+- Análogo Hi-Res se activa por defecto al detectar una salida de audio USB que anuncie frecuencias superiores a 48 kHz, en Android 14 o posterior. Sin esa detección permanece apagado. Puedes desactivarlo y se respeta tu elección.
+- Solicita la frecuencia original de la canción cuando existe un formato compatible; conserva la reproducción convencional si Android no lo admite. No aumenta artificialmente la frecuencia de los archivos ni certifica la frecuencia física del DAC.
+- El diagnóstico muestra las capacidades declaradas de la salida por separado del archivo, PCM y formato cliente de Android. Cambiar la preferencia conserva canción, posición, pausa y cola. La petición USB bit-perfect continúa siendo independiente.
+
+Actualización Android que conserva música y preferencias. Instálala encima de TELOS sin desinstalar la versión anterior.
+
 ## 0.8.5 · compilación 26
 
 Ambilight más visible y con intensidad ajustable

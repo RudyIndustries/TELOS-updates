@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.5",
-  "versionCode": 26,
+  "versionName": "0.8.7",
+  "versionCode": 28,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.5/TELOS-0.8.5-android-arm64.apk",
-  "size": 20570676,
-  "sha256": "ed30766521cc534862ac396e22677e03f531c7593fb8d824873fefbc1204f8cd",
-  "publishedAt": "2026-11-03T05:37:38Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.5",
-  "notes": "Ambilight más visible y con intensidad ajustable\n\n- Se corrige el Ambilight que podía quedarse estático al reiniciar una canción o retroceder dentro de ella.\n- Ajustes permite regular la intensidad de 0 a 100 %. La elección se conserva; al máximo aumentan brillo, color, definición y movimiento de las luces.\n- Respuesta más rápida a la música, con acentos en las subidas reales de bajos y desplazamiento según bajos, medios y agudos. No cambia el audio ni utiliza micrófono.\n- El efecto sigue deteniéndose en segundo plano, con pantalla apagada, al pausar o al desactivar Movimiento. A 0 % también se detiene su análisis.\n\nActualización Android que conserva música, favoritos, playlists y preferencias."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.7/TELOS-0.8.7-android-arm64.apk",
+  "size": 20570864,
+  "sha256": "8f2b47d6fa39a9fe369a52dba9f9634802e44d521f0ec0f372a4d2262b2500ca",
+  "publishedAt": "2026-11-04T15:03:44Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.7",
+  "notes": "Telegram en Ajustes y Análogo Hi-Res automático para USB\n\n- Nuevo bloque Telegram en Ajustes para conectar tu cuenta o desconectarla. Cancelar el consentimiento o el inicio de sesión permite volver a intentarlo.\n- Pantalla de consentimiento rediseñada con el icono original de TELOS, tarjetas claras y las opciones Aceptar y conectar y Ahora no.\n- Se mantiene la explicación del alcance de Telegram Web, del servicio que recibe las consultas y del envío mientras escribes. Telegram sólo se carga después de aceptar.\n- Desconectar pide confirmación y conserva la música descargada, favoritos y playlists. Si el cierre remoto no se confirma, se indica cómo revocar la sesión desde Telegram.\n- Análogo Hi-Res se activa por defecto al detectar una salida de audio USB que anuncie frecuencias superiores a 48 kHz, en Android 14 o posterior. Sin esa detección permanece apagado. Puedes desactivarlo y se respeta tu elección.\n- Solicita la frecuencia original de la canción cuando existe un formato compatible; conserva la reproducción convencional si Android no lo admite. No aumenta artificialmente la frecuencia de los archivos ni certifica la frecuencia física del DAC.\n- El diagnóstico muestra las capacidades declaradas de la salida por separado del archivo, PCM y formato cliente de Android. Cambiar la preferencia conserva canción, posición, pausa y cola. La petición USB bit-perfect continúa siendo independiente.\n\nActualización Android que conserva música y preferencias. Instálala encima de TELOS sin desinstalar la versión anterior."
 }
