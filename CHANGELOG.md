@@ -1,5 +1,14 @@
 # Historial de cambios
 
+## 0.8.10 · compilación 31
+
+# En cola de Reproducción
+
+- Al tocar una canción en una playlist o en Favoritos, TELOS empieza en esa pista y continúa hasta el final de la lista. Siguiente sigue el orden visible, ya sea personalizado, por título o por artista.
+- Si activaste Recomendar canciones, TELOS espera a que se agote la cola antes de recomendar. Recorre la música local disponible, incluidas canciones que nunca escuchaste, y usa el género etiquetado, el artista y el álbum para encontrar afinidad.
+
+Actualiza encima de TELOS para conservar tu música, favoritos, playlists y preferencias.
+
 ## 0.8.9 · compilación 30
 
 Descargas recuperables y nueva ventana de actualización

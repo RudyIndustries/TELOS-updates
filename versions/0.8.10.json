@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.10",
+  "versionCode": 31,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.10/TELOS-0.8.10-android-arm64.apk",
+  "size": 20636820,
+  "sha256": "173d5aea30441126f4b8a97d9d40b5fac57726791a12087ba8efe1ddecfb4c8a",
+  "publishedAt": "2026-11-05T16:32:55Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.10",
+  "notes": "# En cola de Reproducción\n\n- Al tocar una canción en una playlist o en Favoritos, TELOS empieza en esa pista y continúa hasta el final de la lista. Siguiente sigue el orden visible, ya sea personalizado, por título o por artista.\n- Si activaste Recomendar canciones, TELOS espera a que se agote la cola antes de recomendar. Recorre la música local disponible, incluidas canciones que nunca escuchaste, y usa el género etiquetado, el artista y el álbum para encontrar afinidad.\n\nActualiza encima de TELOS para conservar tu música, favoritos, playlists y preferencias."
+}

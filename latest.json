@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.9",
-  "versionCode": 30,
+  "versionName": "0.8.10",
+  "versionCode": 31,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.9/TELOS-0.8.9-android-arm64.apk",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.10/TELOS-0.8.10-android-arm64.apk",
   "size": 20636820,
-  "sha256": "8741fb08ca56a693c02033e6ade21597e4de9bae5a63226bc18ba907745a39b8",
-  "publishedAt": "2026-11-05T00:49:50Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.9",
-  "notes": "Descargas recuperables y nueva ventana de actualización\n\n- Corregido el estado de canciones ya guardadas que podía quedarse indefinidamente en Añadiendo a tu biblioteca. La actualización de biblioteca tiene reintentos limitados y una acción para actualizarla sin volver a descargar el archivo.\n- En Android 10 o posterior, las canciones descargadas por TELOS aparecen aunque todavía no se haya autorizado la lectura de toda la música. Los archivos de otras aplicaciones siguen requiriendo permiso o una carpeta autorizada.\n- Si una transferencia deja de avanzar, TELOS libera el trabajo y permite reintentarlo. Cancelar ya no depende de que Telegram termine de contestar; las respuestas tardías no reactivan trabajos cancelados o fallidos.\n- Abrir Ajustes, cambiar el color o volver al buscador conserva las descargas aceptadas. Al volver de Ajustes se reutilizan los resultados vigentes de la misma consulta.\n- La lectura del catálogo y el guardado de archivos usan colas separadas, evitando que una nueva búsqueda retrase los acuses del archivo.\n- Varios archivos guardados comparten la actualización de biblioteca. Esa lectura no inicia la organización de otras canciones y también reconoce la identidad canónica de los archivos autorizados.\n- Se mantiene la verificación de tamaño y SHA-256 antes de publicar el archivo. Las descargas normales conservan la reproducción y la cola manual.\n- Las próximas versiones se anuncian en una ventana emergente obligatoria, con Actualizar y Salir. Atrás también cierra TELOS y cancelar el instalador mantiene el aviso. Se retira el aviso superior y se conserva Actualizaciones en Ajustes. Es necesario instalar esta versión para recibir el nuevo comportamiento; la comprobación automática conserva su intervalo.\n\nActualiza encima de la instalación existente para conservar música, favoritos, playlists y preferencias."
+  "sha256": "173d5aea30441126f4b8a97d9d40b5fac57726791a12087ba8efe1ddecfb4c8a",
+  "publishedAt": "2026-11-05T16:32:55Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.10",
+  "notes": "# En cola de Reproducción\n\n- Al tocar una canción en una playlist o en Favoritos, TELOS empieza en esa pista y continúa hasta el final de la lista. Siguiente sigue el orden visible, ya sea personalizado, por título o por artista.\n- Si activaste Recomendar canciones, TELOS espera a que se agote la cola antes de recomendar. Recorre la música local disponible, incluidas canciones que nunca escuchaste, y usa el género etiquetado, el artista y el álbum para encontrar afinidad.\n\nActualiza encima de TELOS para conservar tu música, favoritos, playlists y preferencias."
 }
