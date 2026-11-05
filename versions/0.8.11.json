@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.11",
+  "versionCode": 32,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.11/TELOS-0.8.11-android-arm64.apk",
+  "size": 20587668,
+  "sha256": "f045d93a2293ff4eb74938afd9af2427e42e499a5aeb193d81db17a54ab31d56",
+  "publishedAt": "2026-11-05T17:45:48Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.11",
+  "notes": "# Preescucha DJ en el disco ampliado\n\nToca la parte negra del disco para ampliarlo y gíralo con un dedo. Oirás fragmentos de la canción hacia delante o en reversa según el giro. La velocidad del dedo cambia cómo suena el fragmento. Una vuelta recorre ocho segundos y al soltar se fija la nueva posición.\n\nLa preescucha se limita al gesto en Android. El reproductor vuelve a su sonido normal y respeta si estaba en pausa. Si el archivo no admite preescucha, puedes seguir girando y soltar para buscar."
+}

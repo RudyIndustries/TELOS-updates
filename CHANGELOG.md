@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 0.8.11 · compilación 32
+
+# Preescucha DJ en el disco ampliado
+
+Toca la parte negra del disco para ampliarlo y gíralo con un dedo. Oirás fragmentos de la canción hacia delante o en reversa según el giro. La velocidad del dedo cambia cómo suena el fragmento. Una vuelta recorre ocho segundos y al soltar se fija la nueva posición.
+
+La preescucha se limita al gesto en Android. El reproductor vuelve a su sonido normal y respeta si estaba en pausa. Si el archivo no admite preescucha, puedes seguir girando y soltar para buscar.
+
 ## 0.8.10 · compilación 31
 
 # En cola de Reproducción
