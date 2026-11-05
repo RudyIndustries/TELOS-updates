@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.8",
-  "versionCode": 29,
+  "versionName": "0.8.9",
+  "versionCode": 30,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.8/TELOS-0.8.8-android-arm64.apk",
-  "size": 20570928,
-  "sha256": "bfb0988626b5641ac50c8b330d8ba5475b5e07f5f929a9cc72ffbeeaf64493ba",
-  "publishedAt": "2026-11-04T15:51:24Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.8",
-  "notes": "Telegram inmediato, descargas sin interrupciones y almacenamiento de tu música\n\n- Telegram aparece al principio de Ajustes. Conectar abre el inicio de sesión sin esperar comprobaciones de conexión o calidad y no prepara una sesión web al entrar en Ajustes.\n- Buscar mantiene Conectar Telegram fijo en la parte superior, encima del campo de búsqueda. Permanece visible al escribir, borrar o desplazar resultados, y sólo desaparece cuando la cuenta está conectada.\n- Cancelar el consentimiento o el inicio de sesión deja disponible el mismo botón para reintentarlo.\n- Las respuestas antiguas de conexión o calidad no sustituyen el estado de un inicio de sesión más reciente.\n- Se agiliza la presentación del consentimiento al evitar inicializar WebView antes de aceptar. La carga de la página oficial y la autenticación siguen dependiendo de Telegram y de la conexión a Internet.\n- Descargar una o varias canciones desde Buscar o un álbum ya no detiene ni sustituye la que está sonando. Las descargas normales respetan la reproducción y la cola manual; sólo Preparar y reproducir, elegido expresamente, reproduce al terminar.\n- Nuevo botón Administrar almacenamiento en Ajustes: total ocupado por la música, barra de distribución, tamaños por carpeta y detalle de sus canciones, ordenados por espacio ocupado. Sólo incluye música detectada por TELOS; no mezcla fotos, aplicaciones ni sistema.\n- Recalcular almacenamiento sólo lee la biblioteca, sin mover archivos. Los tamaños no informados se señalan y no se inventan.\n\nSe mantienen Análogo Hi-Res, la biblioteca, música descargada, favoritos, playlists y ajustes. Actualiza encima de la instalación existente."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.9/TELOS-0.8.9-android-arm64.apk",
+  "size": 20636820,
+  "sha256": "8741fb08ca56a693c02033e6ade21597e4de9bae5a63226bc18ba907745a39b8",
+  "publishedAt": "2026-11-05T00:49:50Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.9",
+  "notes": "Descargas recuperables y nueva ventana de actualización\n\n- Corregido el estado de canciones ya guardadas que podía quedarse indefinidamente en Añadiendo a tu biblioteca. La actualización de biblioteca tiene reintentos limitados y una acción para actualizarla sin volver a descargar el archivo.\n- En Android 10 o posterior, las canciones descargadas por TELOS aparecen aunque todavía no se haya autorizado la lectura de toda la música. Los archivos de otras aplicaciones siguen requiriendo permiso o una carpeta autorizada.\n- Si una transferencia deja de avanzar, TELOS libera el trabajo y permite reintentarlo. Cancelar ya no depende de que Telegram termine de contestar; las respuestas tardías no reactivan trabajos cancelados o fallidos.\n- Abrir Ajustes, cambiar el color o volver al buscador conserva las descargas aceptadas. Al volver de Ajustes se reutilizan los resultados vigentes de la misma consulta.\n- La lectura del catálogo y el guardado de archivos usan colas separadas, evitando que una nueva búsqueda retrase los acuses del archivo.\n- Varios archivos guardados comparten la actualización de biblioteca. Esa lectura no inicia la organización de otras canciones y también reconoce la identidad canónica de los archivos autorizados.\n- Se mantiene la verificación de tamaño y SHA-256 antes de publicar el archivo. Las descargas normales conservan la reproducción y la cola manual.\n- Las próximas versiones se anuncian en una ventana emergente obligatoria, con Actualizar y Salir. Atrás también cierra TELOS y cancelar el instalador mantiene el aviso. Se retira el aviso superior y se conserva Actualizaciones en Ajustes. Es necesario instalar esta versión para recibir el nuevo comportamiento; la comprobación automática conserva su intervalo.\n\nActualiza encima de la instalación existente para conservar música, favoritos, playlists y preferencias."
 }

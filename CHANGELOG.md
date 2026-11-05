@@ -1,5 +1,20 @@
 # Historial de cambios
 
+## 0.8.9 · compilación 30
+
+Descargas recuperables y nueva ventana de actualización
+
+- Corregido el estado de canciones ya guardadas que podía quedarse indefinidamente en Añadiendo a tu biblioteca. La actualización de biblioteca tiene reintentos limitados y una acción para actualizarla sin volver a descargar el archivo.
+- En Android 10 o posterior, las canciones descargadas por TELOS aparecen aunque todavía no se haya autorizado la lectura de toda la música. Los archivos de otras aplicaciones siguen requiriendo permiso o una carpeta autorizada.
+- Si una transferencia deja de avanzar, TELOS libera el trabajo y permite reintentarlo. Cancelar ya no depende de que Telegram termine de contestar; las respuestas tardías no reactivan trabajos cancelados o fallidos.
+- Abrir Ajustes, cambiar el color o volver al buscador conserva las descargas aceptadas. Al volver de Ajustes se reutilizan los resultados vigentes de la misma consulta.
+- La lectura del catálogo y el guardado de archivos usan colas separadas, evitando que una nueva búsqueda retrase los acuses del archivo.
+- Varios archivos guardados comparten la actualización de biblioteca. Esa lectura no inicia la organización de otras canciones y también reconoce la identidad canónica de los archivos autorizados.
+- Se mantiene la verificación de tamaño y SHA-256 antes de publicar el archivo. Las descargas normales conservan la reproducción y la cola manual.
+- Las próximas versiones se anuncian en una ventana emergente obligatoria, con Actualizar y Salir. Atrás también cierra TELOS y cancelar el instalador mantiene el aviso. Se retira el aviso superior y se conserva Actualizaciones en Ajustes. Es necesario instalar esta versión para recibir el nuevo comportamiento; la comprobación automática conserva su intervalo.
+
+Actualiza encima de la instalación existente para conservar música, favoritos, playlists y preferencias.
+
 ## 0.8.8 · compilación 29
 
 Telegram inmediato, descargas sin interrupciones y almacenamiento de tu música
