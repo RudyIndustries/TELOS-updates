@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 0.8.13 · compilación 34
+
+# Disco más claro y recomendaciones preparadas
+
+- El disco ampliado busca con fragmentos reconocibles. Un giro lento los reproduce más despacio y un giro rápido se acerca a la velocidad normal. Al retroceder, los fragmentos salen de posiciones anteriores de la canción. Se corrige el cierre que podía ocurrir al iniciar el giro.
+- Con Recomendar canciones activado, la cola muestra **Más para escuchar** debajo de tus pendientes. TELOS prepara hasta cinco canciones locales por adelantado, usa primero tu playlist o cola manual y repone las sugerencias a medida que las escuchas.
+
 ## 0.8.11 · compilación 32
 
 # Preescucha DJ en el disco ampliado

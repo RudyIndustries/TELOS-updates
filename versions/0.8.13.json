@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.13",
+  "versionCode": 34,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.13/TELOS-0.8.13-android-arm64.apk",
+  "size": 20587668,
+  "sha256": "042aa7c13c6be7e62db37bdb24b9c471f333be7520447a86445f4bc95bb27642",
+  "publishedAt": "2026-11-05T18:46:48Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.13",
+  "notes": "# Disco más claro y recomendaciones preparadas\n\n- El disco ampliado busca con fragmentos reconocibles. Un giro lento los reproduce más despacio y un giro rápido se acerca a la velocidad normal. Al retroceder, los fragmentos salen de posiciones anteriores de la canción. Se corrige el cierre que podía ocurrir al iniciar el giro.\n- Con Recomendar canciones activado, la cola muestra **Más para escuchar** debajo de tus pendientes. TELOS prepara hasta cinco canciones locales por adelantado, usa primero tu playlist o cola manual y repone las sugerencias a medida que las escuchas."
+}
