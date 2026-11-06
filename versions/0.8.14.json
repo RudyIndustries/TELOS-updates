@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.14",
+  "versionCode": 35,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.14/TELOS-0.8.14-android-arm64.apk",
+  "size": 20588212,
+  "sha256": "a8e53f2dcaa6ac781ea23828594bc2c96fd5fb7594cc9230b8eb0c72f7672b25",
+  "publishedAt": "2026-11-06T07:45:53Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.14",
+  "notes": "# Descargas de canciones con colaboradores\n\n- TELOS reconoce el audio cuando el archivo acredita a un colaborador distinto del artista principal y la ficha de la pista confirma a ambos. Esto evita que la descarga se quede esperando aunque el servicio ya haya enviado la canción."
+}

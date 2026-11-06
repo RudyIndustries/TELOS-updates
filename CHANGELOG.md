@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## 0.8.14 · compilación 35
+
+# Descargas de canciones con colaboradores
+
+- TELOS reconoce el audio cuando el archivo acredita a un colaborador distinto del artista principal y la ficha de la pista confirma a ambos. Esto evita que la descarga se quede esperando aunque el servicio ya haya enviado la canción.
+
 ## 0.8.13 · compilación 34
 
 # Disco más claro y recomendaciones preparadas
