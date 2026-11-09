@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.14",
-  "versionCode": 35,
+  "versionName": "0.8.15",
+  "versionCode": 36,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.14/TELOS-0.8.14-android-arm64.apk",
-  "size": 20588212,
-  "sha256": "a8e53f2dcaa6ac781ea23828594bc2c96fd5fb7594cc9230b8eb0c72f7672b25",
-  "publishedAt": "2026-11-06T07:45:53Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.14",
-  "notes": "# Descargas de canciones con colaboradores\n\n- TELOS reconoce el audio cuando el archivo acredita a un colaborador distinto del artista principal y la ficha de la pista confirma a ambos. Esto evita que la descarga se quede esperando aunque el servicio ya haya enviado la canción."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.15/TELOS-0.8.15-android-arm64.apk",
+  "size": 20588716,
+  "sha256": "9f9430d3eab60fb9c3758ba61cbd4fcd5d1e071d8f78bb301e26da199f105e08",
+  "publishedAt": "2026-11-09T23:19:45Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.15",
+  "notes": "# Búsqueda musical y sesión de Telegram\r\n\r\n- TELOS recupera la sesión guardada de Telegram al abrir la app.\r\n- Las búsquedas esperan a que termine la reconexión. Buscar muestra Conectar Telegram cuando hace falta iniciar sesión.\r\n- El buscador reconoce el alias activo del servicio musical, limita las esperas y distingue un fallo del catálogo de una sesión vencida."
 }

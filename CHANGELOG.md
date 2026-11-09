@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 0.8.15 · compilación 36
+
+# Búsqueda musical y sesión de Telegram
+
+- TELOS recupera la sesión guardada de Telegram al abrir la app.
+- Las búsquedas esperan a que termine la reconexión. Buscar muestra Conectar Telegram cuando hace falta iniciar sesión.
+- El buscador reconoce el alias activo del servicio musical, limita las esperas y distingue un fallo del catálogo de una sesión vencida.
+
 ## 0.8.14 · compilación 35
 
 # Descargas de canciones con colaboradores
