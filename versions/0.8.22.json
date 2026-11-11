@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.22",
+  "versionCode": 43,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.22/TELOS-0.8.22-android-arm64.apk",
+  "size": 20721300,
+  "sha256": "f174615f3991480edfc97a02fc5a72351f93f7ca2893dce48e9e9a911307c881",
+  "publishedAt": "2026-11-11T19:04:53Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.22",
+  "notes": "- Corrige la descarga de canciones cuando el catálogo pone el nombre de un artista invitado en el título y el archivo lo acredita por separado."
+}

@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.21",
-  "versionCode": 42,
+  "versionName": "0.8.22",
+  "versionCode": 43,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.21/TELOS-0.8.21-android-arm64.apk",
-  "size": 20720876,
-  "sha256": "bc451c8b3753c64f3fb6d9594965b7fcd898b517af82dde589f8e669f5a7e8ab",
-  "publishedAt": "2026-11-11T17:56:55Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.21",
-  "notes": "- El minirreproductor Normal recupera el fondo de cristal y los controles sencillos, con una portada más grande y transiciones suaves.\n- En Ajustes → Personalización → Minirreproductor puedes elegir Normal o Vinilo. TELOS guarda tu selección.\n- En Vinilo, Anterior, Play/Pausa, Siguiente y playlists quedan a la derecha. Toca el disco o el título para abrir el reproductor completo.\r\n- El disco del estilo Vinilo gira de forma continua a 33⅓ rpm visuales y frena suavemente al pausar."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.22/TELOS-0.8.22-android-arm64.apk",
+  "size": 20721300,
+  "sha256": "f174615f3991480edfc97a02fc5a72351f93f7ca2893dce48e9e9a911307c881",
+  "publishedAt": "2026-11-11T19:04:53Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.22",
+  "notes": "- Corrige la descarga de canciones cuando el catálogo pone el nombre de un artista invitado en el título y el archivo lo acredita por separado."
 }

@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.8.22 · compilación 43
+
+- Corrige la descarga de canciones cuando el catálogo pone el nombre de un artista invitado en el título y el archivo lo acredita por separado.
+
 ## 0.8.21 · compilación 42
 
 - El minirreproductor Normal recupera el fondo de cristal y los controles sencillos, con una portada más grande y transiciones suaves.
