@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 0.8.21 · compilación 42
+
+- El minirreproductor Normal recupera el fondo de cristal y los controles sencillos, con una portada más grande y transiciones suaves.
+- En Ajustes → Personalización → Minirreproductor puedes elegir Normal o Vinilo. TELOS guarda tu selección.
+- En Vinilo, Anterior, Play/Pausa, Siguiente y playlists quedan a la derecha. Toca el disco o el título para abrir el reproductor completo.
+- El disco del estilo Vinilo gira de forma continua a 33⅓ rpm visuales y frena suavemente al pausar.
+
 ## 0.8.20 · compilación 41
 
 - Minirreproductor compacto con disco con portada más visible, brazo animado al pausar y botones metálicos junto al disco para Anterior, Play/Pausa, Siguiente y playlists. El minirreproductor y ambas barras de navegación siguen el color elegido.
