@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.18",
+  "versionCode": 39,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.18/TELOS-0.8.18-android-arm64.apk",
+  "size": 20655352,
+  "sha256": "bc8c00d42a18cb953c73b73b05d7b3afd11331869c91902179006254a8852dbc",
+  "publishedAt": "2026-11-11T16:05:10Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.18",
+  "notes": "- En Ajustes → Personalización → Barra inferior, elige entre la barra clásica con la bolita y la actual de cristal azul.\n- TELOS recuerda la elección y aplica el cambio al volver a la navegación."
+}

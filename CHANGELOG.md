@@ -1,5 +1,10 @@
 # Historial de cambios
 
+## 0.8.18 · compilación 39
+
+- En Ajustes → Personalización → Barra inferior, elige entre la barra clásica con la bolita y la actual de cristal azul.
+- TELOS recuerda la elección y aplica el cambio al volver a la navegación.
+
 ## 0.8.17 · compilación 38
 
 - Nueva barra de navegación de cristal azul petróleo, con iconos claros y un salto al cambiar de pestaña.
