@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.17",
+  "versionCode": 38,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.17/TELOS-0.8.17-android-arm64.apk",
+  "size": 20655312,
+  "sha256": "1f6867d6743c685867be600b7f177b1fa00177ca7e657436b3a50a2eaeb24995",
+  "publishedAt": "2026-11-11T15:49:58Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.17",
+  "notes": "- Nueva barra de navegación de cristal azul petróleo, con iconos claros y un salto al cambiar de pestaña.\n- Personalización en Ajustes con iconos para apariencia, transparencia, contraste, vibración, movimiento y Ambilight.\r\n- Selector de tonos personalizados con vista previa y ajustes de tono, saturación y brillo."
+}

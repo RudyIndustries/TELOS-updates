@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## 0.8.17 · compilación 38
+
+- Nueva barra de navegación de cristal azul petróleo, con iconos claros y un salto al cambiar de pestaña.
+- Personalización en Ajustes con iconos para apariencia, transparencia, contraste, vibración, movimiento y Ambilight.
+- Selector de tonos personalizados con vista previa y ajustes de tono, saturación y brillo.
+
 ## 0.8.16 · compilación 37
 
 # Descargas con nombres completos
