@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## 0.8.20 · compilación 41
+
+- Minirreproductor compacto con disco con portada más visible, brazo animado al pausar y botones metálicos junto al disco para Anterior, Play/Pausa, Siguiente y playlists. El minirreproductor y ambas barras de navegación siguen el color elegido.
+- Las playlists tienen un lápiz para editar nombre e imagen. El selector de canciones incluye búsqueda local, carátulas y sugerencias.
+- En Buscar, desliza a la derecha para añadir a la cola. Si la canción es de Global, se incorpora después de guardarla y verificarla. Tocar una canción abre el reproductor completo y su botón Play controla la reproducción desde la vista actual.
+
 ## 0.8.19 · compilación 40
 
 - La barra clásica con la bolita es el estilo predeterminado. Los estilos guardados se respetan y se pueden cambiar en Ajustes → Personalización → Barra inferior.

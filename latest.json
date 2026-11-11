@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.19",
-  "versionCode": 40,
+  "versionName": "0.8.20",
+  "versionCode": 41,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.19/TELOS-0.8.19-android-arm64.apk",
-  "size": 20655352,
-  "sha256": "9e929911f21fb267f4d3abf7723adfa22ff127541ec62d9f79f7df393209121e",
-  "publishedAt": "2026-11-11T16:24:31Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.19",
-  "notes": "- La barra clásica con la bolita es el estilo predeterminado. Los estilos guardados se respetan y se pueden cambiar en Ajustes → Personalización → Barra inferior.\n- Los iconos de la barra clásica son un 10 % más grandes. El indicador tiene una unión continua durante el movimiento."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.20/TELOS-0.8.20-android-arm64.apk",
+  "size": 20720844,
+  "sha256": "86f0ed6bbc23aeeab43b3b08db5d9e7a34429f49c0fbf6e5cbbe84a65a528aaa",
+  "publishedAt": "2026-11-11T16:56:44Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.20",
+  "notes": "- Minirreproductor compacto con disco con portada más visible, brazo animado al pausar y botones metálicos junto al disco para Anterior, Play/Pausa, Siguiente y playlists. El minirreproductor y ambas barras de navegación siguen el color elegido.\n- Las playlists tienen un lápiz para editar nombre e imagen. El selector de canciones incluye búsqueda local, carátulas y sugerencias.\n- En Buscar, desliza a la derecha para añadir a la cola. Si la canción es de Global, se incorpora después de guardarla y verificarla. Tocar una canción abre el reproductor completo y su botón Play controla la reproducción desde la vista actual."
 }

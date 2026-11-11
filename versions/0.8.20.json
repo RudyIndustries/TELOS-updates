@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.20",
+  "versionCode": 41,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.20/TELOS-0.8.20-android-arm64.apk",
+  "size": 20720844,
+  "sha256": "86f0ed6bbc23aeeab43b3b08db5d9e7a34429f49c0fbf6e5cbbe84a65a528aaa",
+  "publishedAt": "2026-11-11T16:56:44Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.20",
+  "notes": "- Minirreproductor compacto con disco con portada más visible, brazo animado al pausar y botones metálicos junto al disco para Anterior, Play/Pausa, Siguiente y playlists. El minirreproductor y ambas barras de navegación siguen el color elegido.\n- Las playlists tienen un lápiz para editar nombre e imagen. El selector de canciones incluye búsqueda local, carátulas y sugerencias.\n- En Buscar, desliza a la derecha para añadir a la cola. Si la canción es de Global, se incorpora después de guardarla y verificarla. Tocar una canción abre el reproductor completo y su botón Play controla la reproducción desde la vista actual."
+}
