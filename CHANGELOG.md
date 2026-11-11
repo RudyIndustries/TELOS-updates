@@ -1,5 +1,14 @@
 # Historial de cambios
 
+## 0.8.16 · compilación 37
+
+# Descargas con nombres completos
+
+- Corregido el guardado de canciones cuyo nombre contiene interrogaciones, dos puntos, comillas u otros signos que Android adapta al almacenarlos.
+- TELOS solicita el nombre original y conserva el título, las etiquetas y los bytes del audio. Si Android necesita adaptar el nombre físico, la descarga puede completarse.
+- Los nombres demasiado largos se ajustan al espacio disponible sin cortar caracteres Unicode ni perder la extensión del audio.
+- Las colisiones, incluso entre nombres que Android transforma al mismo resultado, se separan en carpetas de importación sin sobrescribir canciones.
+
 ## 0.8.15 · compilación 36
 
 # Búsqueda musical y sesión de Telegram

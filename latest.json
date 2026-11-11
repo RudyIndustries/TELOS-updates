@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.15",
-  "versionCode": 36,
+  "versionName": "0.8.16",
+  "versionCode": 37,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.15/TELOS-0.8.15-android-arm64.apk",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.16/TELOS-0.8.16-android-arm64.apk",
   "size": 20588716,
-  "sha256": "9f9430d3eab60fb9c3758ba61cbd4fcd5d1e071d8f78bb301e26da199f105e08",
-  "publishedAt": "2026-11-09T23:19:45Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.15",
-  "notes": "# Búsqueda musical y sesión de Telegram\r\n\r\n- TELOS recupera la sesión guardada de Telegram al abrir la app.\r\n- Las búsquedas esperan a que termine la reconexión. Buscar muestra Conectar Telegram cuando hace falta iniciar sesión.\r\n- El buscador reconoce el alias activo del servicio musical, limita las esperas y distingue un fallo del catálogo de una sesión vencida."
+  "sha256": "f9cd1fdef99d28e42e408a34601a65f5dc3219f5f29c21b5d320b47069bc0a55",
+  "publishedAt": "2026-11-11T00:14:52Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.16",
+  "notes": "# Descargas con nombres completos\n\n- Corregido el guardado de canciones cuyo nombre contiene interrogaciones, dos puntos, comillas u otros signos que Android adapta al almacenarlos.\n- TELOS solicita el nombre original y conserva el título, las etiquetas y los bytes del audio. Si Android necesita adaptar el nombre físico, la descarga puede completarse.\n- Los nombres demasiado largos se ajustan al espacio disponible sin cortar caracteres Unicode ni perder la extensión del audio.\n- Las colisiones, incluso entre nombres que Android transforma al mismo resultado, se separan en carpetas de importación sin sobrescribir canciones."
 }
