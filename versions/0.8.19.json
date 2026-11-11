@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.19",
+  "versionCode": 40,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.19/TELOS-0.8.19-android-arm64.apk",
+  "size": 20655352,
+  "sha256": "9e929911f21fb267f4d3abf7723adfa22ff127541ec62d9f79f7df393209121e",
+  "publishedAt": "2026-11-11T16:24:31Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.19",
+  "notes": "- La barra clásica con la bolita es el estilo predeterminado. Los estilos guardados se respetan y se pueden cambiar en Ajustes → Personalización → Barra inferior.\n- Los iconos de la barra clásica son un 10 % más grandes. El indicador tiene una unión continua durante el movimiento."
+}

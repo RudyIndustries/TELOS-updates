@@ -1,5 +1,10 @@
 # Historial de cambios
 
+## 0.8.19 · compilación 40
+
+- La barra clásica con la bolita es el estilo predeterminado. Los estilos guardados se respetan y se pueden cambiar en Ajustes → Personalización → Barra inferior.
+- Los iconos de la barra clásica son un 10 % más grandes. El indicador tiene una unión continua durante el movimiento.
+
 ## 0.8.18 · compilación 39
 
 - En Ajustes → Personalización → Barra inferior, elige entre la barra clásica con la bolita y la actual de cristal azul.
