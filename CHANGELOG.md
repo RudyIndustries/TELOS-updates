@@ -1,5 +1,19 @@
 # Historial de cambios
 
+## 0.8.23 · compilación 44
+
+Descargas y playlists con su propio ambiente
+
+- La lista de Descargas deja de mostrar canciones que ya se incorporaron a la biblioteca. Si el audio se guardó pero falta actualizar la biblioteca, conserva la recuperación sin redescargar.
+- Las transferencias solicitadas continúan mediante un servicio Android al minimizar TELOS. Una notificación discreta muestra progreso, completadas y pendientes. En Android 13 o posterior hay que permitir las notificaciones para verlas.
+- Playlists y Favoritos estrenan banner glass con colores de sus carátulas o de la imagen elegida. La portada automática se compone localmente; las playlists vacías reciben un diseño a partir de su nombre.
+- Nuevo editor de nombre, descripción e imagen con vista previa del banner.
+- Mientras suena una canción de la playlist, las luces y bandas del banner responden a las medidas reales del audio de Ambilight. Respetan pausa, segundo plano, Movimiento, intensidad y accesibilidad.
+- Las versiones nuevas ya no bloquean TELOS con una ventana obligatoria. Android programa la preparación de actualizaciones entre las 02:00 y las 05:00, según la hora local y cuando el dispositivo está inactivo y conectado. Aplaza el trabajo si hay reproducción o descargas.
+- Se solicita al sistema instalar automáticamente el APK verificado. Android puede exigir autorizar la fuente o confirmar la instalación; en ese caso queda una notificación silenciosa y se puede seguir usando la app. Ajustes → Actualizaciones conserva la acción manual.
+
+La planificación nocturna comienza al instalar esta versión y abrir TELOS. Android controla cuándo puede ejecutar el trabajo; no hay garantía de una hora exacta. Forzar la detención de la app, apagar el teléfono o las restricciones del sistema pueden interrumpir una transferencia. No se han certificado pruebas físicas de esta versión en A52/A57.
+
 ## 0.8.22 · compilación 43
 
 - Corrige la descarga de canciones cuando el catálogo pone el nombre de un artista invitado en el título y el archivo lo acredita por separado.

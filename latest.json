@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.22",
-  "versionCode": 43,
+  "versionName": "0.8.23",
+  "versionCode": 44,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.22/TELOS-0.8.22-android-arm64.apk",
-  "size": 20721300,
-  "sha256": "f174615f3991480edfc97a02fc5a72351f93f7ca2893dce48e9e9a911307c881",
-  "publishedAt": "2026-11-11T19:04:53Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.22",
-  "notes": "- Corrige la descarga de canciones cuando el catálogo pone el nombre de un artista invitado en el título y el archivo lo acredita por separado."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.23/TELOS-0.8.23-android-arm64.apk",
+  "size": 20740348,
+  "sha256": "c3308f603c6145384f637b68ec1121331dca3ab8cf2f37e2f436d0222133762a",
+  "publishedAt": "2026-11-19T15:24:12Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.23",
+  "notes": "Descargas y playlists con su propio ambiente\n\n- La lista de Descargas deja de mostrar canciones que ya se incorporaron a la biblioteca. Si el audio se guardó pero falta actualizar la biblioteca, conserva la recuperación sin redescargar.\n- Las transferencias solicitadas continúan mediante un servicio Android al minimizar TELOS. Una notificación discreta muestra progreso, completadas y pendientes. En Android 13 o posterior hay que permitir las notificaciones para verlas.\n- Playlists y Favoritos estrenan banner glass con colores de sus carátulas o de la imagen elegida. La portada automática se compone localmente; las playlists vacías reciben un diseño a partir de su nombre.\n- Nuevo editor de nombre, descripción e imagen con vista previa del banner.\n- Mientras suena una canción de la playlist, las luces y bandas del banner responden a las medidas reales del audio de Ambilight. Respetan pausa, segundo plano, Movimiento, intensidad y accesibilidad.\n- Las versiones nuevas ya no bloquean TELOS con una ventana obligatoria. Android programa la preparación de actualizaciones entre las 02:00 y las 05:00, según la hora local y cuando el dispositivo está inactivo y conectado. Aplaza el trabajo si hay reproducción o descargas.\n- Se solicita al sistema instalar automáticamente el APK verificado. Android puede exigir autorizar la fuente o confirmar la instalación; en ese caso queda una notificación silenciosa y se puede seguir usando la app. Ajustes → Actualizaciones conserva la acción manual.\n\nLa planificación nocturna comienza al instalar esta versión y abrir TELOS. Android controla cuándo puede ejecutar el trabajo; no hay garantía de una hora exacta. Forzar la detención de la app, apagar el teléfono o las restricciones del sistema pueden interrumpir una transferencia. No se han certificado pruebas físicas de esta versión en A52/A57."
 }
