@@ -1,5 +1,17 @@
 # Historial de cambios
 
+## 0.8.24 · compilación 45
+
+Descargas que reconocen la respuesta recibida
+
+- Corrige canciones cuyo catálogo añade una segunda numeración al volumen, mientras que la ficha y las etiquetas del audio conservan el número original. La equivalencia exige la ficha nueva vinculada a la petición exacta, álbum y artistas coincidentes; no se aceptan otro volumen, remix ni respuestas antiguas.
+- Reconoce la ficha aunque el servicio intercale su aviso «Please wait…» entre los mensajes de la respuesta. Otra solicitud, ficha o audio corta el vínculo para evitar asociaciones equivocadas.
+- La segunda canción permanece «En cola» hasta que realmente comienza su solicitud. Los archivos ya identificados mantienen las dos transferencias simultáneas.
+- Una solicitud cancelada o agotada libera el turno incluso si Telegram deja pendiente la promesa de registro del documento.
+- Registra sólo el audio seleccionado, evitando esperar por otros documentos antiguos del chat antes de reconocer la respuesta nueva.
+
+Conserva nombres, etiquetas, bytes, música existente y cola de reproducción. No elimina la espera real del servicio de Telegram ni cambia la calidad elegida. La identificación de la demora se comprobó visualmente en un Galaxy A57 con 0.8.23; la corrección se valida con simulaciones y compilación, pendiente de repetir esas descargas en el teléfono actualizado.
+
 ## 0.8.23 · compilación 44
 
 Descargas y playlists con su propio ambiente
