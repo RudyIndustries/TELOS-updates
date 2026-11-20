@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.25",
+  "versionCode": 46,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.25/TELOS-0.8.25-android-arm64.apk",
+  "size": 20806252,
+  "sha256": "22509cb6795e6316b9b052fa11b3c96ae3032f1b38c807ff42c81633f3ef7194",
+  "publishedAt": "2026-11-20T03:39:01Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.25",
+  "notes": "Playlists y biblioteca renovadas\n\n- Crear abre el editor de playlist desde el menú inferior. Puedes elegir una portada, añadir una descripción y revisar la vista previa antes de guardar.\n- La biblioteca destaca Todas las canciones. Favoritos, Hi-Res y tus playlists quedan en la misma pantalla. Hi-Res reúne FLAC verificados de 24 bits y 48 kHz o más y sigue disponible si está vacía.\n- Las playlists muestran la portada a todo el ancho, la duración de la colección y la canción actual resaltada. Las bandas del banner reaccionan al sonido con Ambilight durante la reproducción.\n- El minirreproductor normal usa un acabado glass más compacto con el color elegido y los controles habituales. El estilo vinilo conserva sus controles, disco y brazo con el acabado renovado."
+}

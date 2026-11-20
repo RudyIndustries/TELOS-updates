@@ -1,5 +1,14 @@
 # Historial de cambios
 
+## 0.8.25 · compilación 46
+
+Playlists y biblioteca renovadas
+
+- Crear abre el editor de playlist desde el menú inferior. Puedes elegir una portada, añadir una descripción y revisar la vista previa antes de guardar.
+- La biblioteca destaca Todas las canciones. Favoritos, Hi-Res y tus playlists quedan en la misma pantalla. Hi-Res reúne FLAC verificados de 24 bits y 48 kHz o más y sigue disponible si está vacía.
+- Las playlists muestran la portada a todo el ancho, la duración de la colección y la canción actual resaltada. Las bandas del banner reaccionan al sonido con Ambilight durante la reproducción.
+- El minirreproductor normal usa un acabado glass más compacto con el color elegido y los controles habituales. El estilo vinilo conserva sus controles, disco y brazo con el acabado renovado.
+
 ## 0.8.24 · compilación 45
 
 Descargas que reconocen la respuesta recibida

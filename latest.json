@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.24",
-  "versionCode": 45,
+  "versionName": "0.8.25",
+  "versionCode": 46,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.24/TELOS-0.8.24-android-arm64.apk",
-  "size": 20740716,
-  "sha256": "aeee274b013f5151df0627827174b0d6698ceebd829c628679b547d2fcf28937",
-  "publishedAt": "2026-11-19T15:56:59Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.24",
-  "notes": "Descargas que reconocen la respuesta recibida\n\n- Corrige canciones cuyo catálogo añade una segunda numeración al volumen, mientras que la ficha y las etiquetas del audio conservan el número original. La equivalencia exige la ficha nueva vinculada a la petición exacta, álbum y artistas coincidentes; no se aceptan otro volumen, remix ni respuestas antiguas.\n- Reconoce la ficha aunque el servicio intercale su aviso «Please wait…» entre los mensajes de la respuesta. Otra solicitud, ficha o audio corta el vínculo para evitar asociaciones equivocadas.\n- La segunda canción permanece «En cola» hasta que realmente comienza su solicitud. Los archivos ya identificados mantienen las dos transferencias simultáneas.\n- Una solicitud cancelada o agotada libera el turno incluso si Telegram deja pendiente la promesa de registro del documento.\n- Registra sólo el audio seleccionado, evitando esperar por otros documentos antiguos del chat antes de reconocer la respuesta nueva.\n\nConserva nombres, etiquetas, bytes, música existente y cola de reproducción. No elimina la espera real del servicio de Telegram ni cambia la calidad elegida. La identificación de la demora se comprobó visualmente en un Galaxy A57 con 0.8.23; la corrección se valida con simulaciones y compilación, pendiente de repetir esas descargas en el teléfono actualizado."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.25/TELOS-0.8.25-android-arm64.apk",
+  "size": 20806252,
+  "sha256": "22509cb6795e6316b9b052fa11b3c96ae3032f1b38c807ff42c81633f3ef7194",
+  "publishedAt": "2026-11-20T03:39:01Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.25",
+  "notes": "Playlists y biblioteca renovadas\n\n- Crear abre el editor de playlist desde el menú inferior. Puedes elegir una portada, añadir una descripción y revisar la vista previa antes de guardar.\n- La biblioteca destaca Todas las canciones. Favoritos, Hi-Res y tus playlists quedan en la misma pantalla. Hi-Res reúne FLAC verificados de 24 bits y 48 kHz o más y sigue disponible si está vacía.\n- Las playlists muestran la portada a todo el ancho, la duración de la colección y la canción actual resaltada. Las bandas del banner reaccionan al sonido con Ambilight durante la reproducción.\n- El minirreproductor normal usa un acabado glass más compacto con el color elegido y los controles habituales. El estilo vinilo conserva sus controles, disco y brazo con el acabado renovado."
 }
