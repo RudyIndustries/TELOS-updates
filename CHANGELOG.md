@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## 0.8.26 · compilación 47
+
+Mejoras de reproducción, playlists y fluidez
+
+- Play y Pausa consultan el estado actual del servicio al tocar el control. Los dos estilos de minirreproductor incluyen Anterior, con Favoritos y playlists al extremo derecho.
+- Al elegir una pista de un artista o de una playlist, la reproducción empieza ahí y continúa con las canciones siguientes de esa colección. Elegir una canción en Buscar o en Recientes sustituye los pendientes por esa canción.
+- Las pistas sin artista identificado quedan al final de los resultados de Buscar y se excluyen de las recomendaciones.
+- Las portadas de playlists se conservan al reducir movimiento o transparencia. El reproductor completo muestra iconos más grandes de Aleatorio y Repetición.
+- El reloj y la barra de avance se actualizan por separado de las listas y el resto de los controles. Las portadas comparten la caché de paletas y Ambilight reduce las consultas mientras mantiene la animación.
+
 ## 0.8.25 · compilación 46
 
 Playlists y biblioteca renovadas
