@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.27",
-  "versionCode": 48,
+  "versionName": "0.8.28",
+  "versionCode": 49,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.27/TELOS-0.8.27-android-arm64.apk",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.28/TELOS-0.8.28-android-arm64.apk",
   "size": 20806408,
-  "sha256": "3afeaabae3679d96b28bda546536a0f9026224aa66a32e18eda8bdd75a7ba275",
-  "publishedAt": "2026-11-22T16:12:26Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.27",
-  "notes": "Reconocimiento del audio que entrega Telegram\n\nTELOS reconoce el crédito anterior Jhay Cortez cuando el catálogo y la ficha muestran JHAYCO. La ficha debe corresponder a la solicitud exacta y coincidir en álbum y título completo, incluida la edición. La corrección se aplica al descargar o reproducir el audio entregado y conserva el nombre, las etiquetas y los bytes del archivo."
+  "sha256": "097999b1c1cf48ec449440c885a2cdc3e0a9a06307d5a5a39daf3060c79cb34d",
+  "publishedAt": "2026-11-22T16:38:29Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.28",
+  "notes": "Guardado de descargas y sincronización de Biblioteca\n\n- TELOS conserva el audio y sus etiquetas si Android adapta el nombre físico. Los nombres largos se acortan sin partir caracteres ni perder la extensión. Las colisiones se resuelven en subcarpetas Importación N.\n- Los archivos verificados aparecen como guardados mientras Biblioteca se sincroniza. Si Android tarda, puedes actualizar la biblioteca sin descargar el audio de nuevo."
 }

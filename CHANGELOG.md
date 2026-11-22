@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 0.8.28 · compilación 49
+
+Guardado de descargas y sincronización de Biblioteca
+
+- TELOS conserva el audio y sus etiquetas si Android adapta el nombre físico. Los nombres largos se acortan sin partir caracteres ni perder la extensión. Las colisiones se resuelven en subcarpetas Importación N.
+- Los archivos verificados aparecen como guardados mientras Biblioteca se sincroniza. Si Android tarda, puedes actualizar la biblioteca sin descargar el audio de nuevo.
+
 ## 0.8.27 · compilación 48
 
 Reconocimiento del audio que entrega Telegram

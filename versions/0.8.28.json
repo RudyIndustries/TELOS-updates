@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "platform": "android",
+  "applicationId": "com.telos.music",
+  "channel": "stable",
+  "versionName": "0.8.28",
+  "versionCode": 49,
+  "minSdk": 26,
+  "abi": "arm64-v8a",
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.28/TELOS-0.8.28-android-arm64.apk",
+  "size": 20806408,
+  "sha256": "097999b1c1cf48ec449440c885a2cdc3e0a9a06307d5a5a39daf3060c79cb34d",
+  "publishedAt": "2026-11-22T16:38:29Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.28",
+  "notes": "Guardado de descargas y sincronización de Biblioteca\n\n- TELOS conserva el audio y sus etiquetas si Android adapta el nombre físico. Los nombres largos se acortan sin partir caracteres ni perder la extensión. Las colisiones se resuelven en subcarpetas Importación N.\n- Los archivos verificados aparecen como guardados mientras Biblioteca se sincroniza. Si Android tarda, puedes actualizar la biblioteca sin descargar el audio de nuevo."
+}
