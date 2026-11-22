@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## 0.8.27 · compilación 48
+
+Reconocimiento del audio que entrega Telegram
+
+TELOS reconoce el crédito anterior Jhay Cortez cuando el catálogo y la ficha muestran JHAYCO. La ficha debe corresponder a la solicitud exacta y coincidir en álbum y título completo, incluida la edición. La corrección se aplica al descargar o reproducir el audio entregado y conserva el nombre, las etiquetas y los bytes del archivo.
+
 ## 0.8.26 · compilación 47
 
 Mejoras de reproducción, playlists y fluidez

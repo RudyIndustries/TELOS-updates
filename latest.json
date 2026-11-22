@@ -3,14 +3,14 @@
   "platform": "android",
   "applicationId": "com.telos.music",
   "channel": "stable",
-  "versionName": "0.8.26",
-  "versionCode": 47,
+  "versionName": "0.8.27",
+  "versionCode": 48,
   "minSdk": 26,
   "abi": "arm64-v8a",
-  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.26/TELOS-0.8.26-android-arm64.apk",
-  "size": 20806252,
-  "sha256": "a27076600ea4d508badb15f647453555fdfa81d20f7a456b95304306cd303c05",
-  "publishedAt": "2026-11-20T21:44:43Z",
-  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.26",
-  "notes": "Mejoras de reproducción, playlists y fluidez\n\n- Play y Pausa consultan el estado actual del servicio al tocar el control. Los dos estilos de minirreproductor incluyen Anterior, con Favoritos y playlists al extremo derecho.\n- Al elegir una pista de un artista o de una playlist, la reproducción empieza ahí y continúa con las canciones siguientes de esa colección. Elegir una canción en Buscar o en Recientes sustituye los pendientes por esa canción.\n- Las pistas sin artista identificado quedan al final de los resultados de Buscar y se excluyen de las recomendaciones.\n- Las portadas de playlists se conservan al reducir movimiento o transparencia. El reproductor completo muestra iconos más grandes de Aleatorio y Repetición.\n- El reloj y la barra de avance se actualizan por separado de las listas y el resto de los controles. Las portadas comparten la caché de paletas y Ambilight reduce las consultas mientras mantiene la animación."
+  "apkUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/download/v0.8.27/TELOS-0.8.27-android-arm64.apk",
+  "size": 20806408,
+  "sha256": "3afeaabae3679d96b28bda546536a0f9026224aa66a32e18eda8bdd75a7ba275",
+  "publishedAt": "2026-11-22T16:12:26Z",
+  "releaseUrl": "https://github.com/RudyIndustries/TELOS-updates/releases/tag/v0.8.27",
+  "notes": "Reconocimiento del audio que entrega Telegram\n\nTELOS reconoce el crédito anterior Jhay Cortez cuando el catálogo y la ficha muestran JHAYCO. La ficha debe corresponder a la solicitud exacta y coincidir en álbum y título completo, incluida la edición. La corrección se aplica al descargar o reproducir el audio entregado y conserva el nombre, las etiquetas y los bytes del archivo."
 }
